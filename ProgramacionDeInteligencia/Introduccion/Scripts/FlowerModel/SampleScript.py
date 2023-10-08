@@ -17,9 +17,11 @@ flower_type = iris.target[0:99]
 x = np.column_stack((sepal_length, petal_length))
 y = flower_type
 
-np.random.seed(5)
-tf.random.set_seed(5)
-random.seed(5)
+tf.keras.utils.set_random_seed(5)
+
+# np.random.seed(5)
+# tf.random.set_seed(5)
+# random.seed(5)
 
 model = Sequential()
 model.add(Dense(6, activation='relu', input_dim=2))
@@ -29,6 +31,16 @@ model.add(Dense(1, activation='sigmoid'))
 model.compile(loss='mean_squared_error')
 
 model.fit(x, y, epochs=40)
+print(model.predict([[5.1, 1.4]]))
+print(model.predict([[4.9, 1.4]]))
+print(model.predict([[4.7, 1.3]]))
+print(model.predict([[4.6, 1.5]]))
+print(model.predict([[5.0, 1.4]]))
+print(model.predict([[5.6, 4.1]]))
+print(model.predict([[5.7, 4.2]]))
+print(model.predict([[5.7, 4.2]]))
+print(model.predict([[6.2, 4.3]]))
+print(model.predict([[5.1, 3.0]]))
 
 print(model.predict([[4.9, 1.4]]))
 print(model.predict([[6.3, 4.9]]))

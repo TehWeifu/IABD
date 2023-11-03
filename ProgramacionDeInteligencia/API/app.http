@@ -1,0 +1,24 @@
+
+### GET request with parameter
+GET http://localhost:5000/hc
+Accept: application/json
+
+### GET request with parameter
+GET http://localhost:5000/hello_world?name=Julian
+Accept: application/json
+
+### GET request with parameter
+GET http://localhost:5000/animal_guesser?pet=doggo
+Accept: application/json
+
+### POST request with image
+POST http://localhost:5000/upload_image
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="malza.jpeg"
+Content-Type: image/png
+
+< ./malza.jpeg
+--WebAppBoundary--
+

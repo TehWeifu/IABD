@@ -1,0 +1,40 @@
+1.
+aws ec2 create-security-group --group-name mysql-sg --description "Reglas para la base de datos"
+
+aws ec2 authorize-security-group-ingress --group-name mysql-sg --protocol tcp --port 3306 --cidr 0.0.0.0/0
+
+2.
+aws ec2 create-security-group --group-name external-sg --description "Reglas para acceso SSH/HTTP/HTTPS"
+aws ec2 authorize-security-group-ingress --group-name external-sg --protocol tcp --port 22 --cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-name external-sg --protocol tcp --port 80 --cidr 0.0.0.0/0
+aws ec2 authorize-security-group-ingress --group-name external-sg --protocol tcp --port 443 --cidr 0.0.0.0/0
+
+3.
+aws ec2 describe-security-groups --group-name external-sg --output table
+
+4.
+aws ec2 create-key-pair --key-name MyShhKey
+
+5. (52.206.250.14)
+aws ec2 allocate-address --query PublicIp --output text
+
+6.
+
+aws ec2 run-instances --image-id ami-0fc5d935ebf8bc3bc --count 1 --instance-type t2.small --key-name MyShhKey --security-groups external-sg --tag-specifications "ResourceType=instance,Tags=[{Key=Name,Value=Activity-AWS-01}]"
+
+aws ec2 associate-address --instance-id i-04021a1c19da71d8d --public-ip 52.206.250.14
+
+
+7.
+aws ec2 describe-instances --filters "Name=tag:Name,Values=Activity-AWS-01" --query "Reservations[*].Instances[*].PrivateIpAddress"
+aws ec2 describe-instances --filters "Name=tag:Name,Values=Activity-AWS-01" --query "Reservations[*].Instances[*].PublicIpAddress"
+
+8.
+aws ec2 terminate-instances --instance-ids i-04021a1c19da71d8d
+
+9.
+aws ec2 delete-security-group --group-name mysql-sg
+aws ec2 delete-security-group --group-name external-sg
+
+10.
+aws s3api list-buckets

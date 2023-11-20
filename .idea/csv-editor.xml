@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Paises.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Cesar\Unit02-Pandas\Exercises\Exercise2\tiempos_red_neuronal.csv">
           <value>
             <Attribute>

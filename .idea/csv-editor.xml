@@ -31,21 +31,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\curso-fp-ai\old\primera-mitad\1-descarga-datos\2021-08-11-2021-08-12-2021-08-19-tweets-data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\curso-fp-ai\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\curso-fp-ai\primer-ejercicio\data\house-price-data.csv">
+        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -53,6 +39,13 @@
           </value>
         </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Cesar\Unit02-Pandas\Exercises\Exercise2\tiempos_red_neuronal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Cesar\Unit03-Plotnine\Exercises\noc_regions.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

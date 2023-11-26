@@ -31,6 +31,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ProgramacionDeInteligencia\Raul\TaskListApi\tasks.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
           <value>
             <Attribute>

@@ -2,11 +2,11 @@ import pandas as pd
 import sweetviz as sv
 
 # Solicitar al usuario el nombre del archivo
-file_path = 'Paises.csv'
+file_path = 'Activity02/Resources/sales.csv'
 
 # Leer datos desde el archivo proporcionado por el usuario
 if file_path.endswith('.csv'):
-    df = pd.read_csv(file_path)
+    df = pd.read_csv(file_path, encoding='unicode_escape')
 elif file_path.endswith('.xls') or file_path.endswith('.xlsx'):
     df = pd.read_excel(file_path)
 else:
@@ -16,4 +16,4 @@ else:
 report = sv.analyze(df)
 
 # Generar el informe y guardarlo como archivo HTML
-report.show_html('informe_eda.html')
+report.show_html('profiling.html')

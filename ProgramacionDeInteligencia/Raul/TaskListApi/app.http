@@ -1,0 +1,13 @@
+
+### GET request with parameter
+GET http://localhost:5000/tasks
+Accept: application/json
+
+### POST request with parameter
+POST http://localhost:5000/tasks
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Description": "Study"
+}

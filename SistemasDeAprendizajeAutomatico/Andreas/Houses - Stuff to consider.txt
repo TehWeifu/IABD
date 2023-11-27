@@ -1,26 +1,7 @@
 Houses - Stuff to consider
 
-- LotFrontage has some NaN but shouldn't
-- MasVnrType has some Nan but shouldn't (there is a None value)
-- MasVnrArea has some NaN but shouldn't (TODO: check relationship with above)
-- Electrical has some NaN but shouldn't
-- FireplaceQu has some NaN
-- PoolQC has some NaN
-- Fence has some NaN
-- MiscFeature has some NaN
-
-
-These columns should have some realtion between them
-- BsmtQual has some NaN
-- BsmtCond has some NaN
-- BsmtExposure has some NaN
-- BsmtFinType1 has some NaN
-- BsmtFinType2 has some NaN
-
-
-These columns should have some realtion between them
-- GarageType has some NaN
-- GarageYrBlt has some NaN
-- GarageFinish has some NaN
-- GarageQual has some NaN
-- GarageCond has some NaN
+TODO:
+ - Check sum 'BsmtFInSF1' + 'BsmtFInSF1' + 'BsmtUnfSF' = 'TotalBsmtSF'
+ - Better check if duplicated entries??
+ - Check if 'Exterior1st' and 'Exterior2nd' have the same values for the most part
+ - Functional is important?

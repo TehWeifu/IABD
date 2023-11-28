@@ -1,7 +1,29 @@
 Houses - Stuff to consider
 
 TODO:
- - Check sum 'BsmtFInSF1' + 'BsmtFInSF1' + 'BsmtUnfSF' = 'TotalBsmtSF'
  - Better check if duplicated entries??
- - Check if 'Exterior1st' and 'Exterior2nd' have the same values for the most part
  - Functional is important?
+
+
+- 'Exterior1st' and 'Exterior2nd' have the same values for the most part
+
+
+Columns:
+  - MSZoning: most of the columns have the value 'RL'
+  - LotArea: have huge standard deviation
+  - Street: has 2 possible values and 1 of them only occurs a few times
+  - Alley: Most of them are null
+  - LotShape: Most of them are between 2 values out of 4 (group all irregulars together?)
+  - LandContour: Most of them have the same value
+  - Utilities: All but one have the same
+  - LotConfig: Most of them have the same value (group the rest of them?)
+  - LandSlope: Most of them are the same value
+  - Condition1: Most of them are the same value (group ?)
+  - Condition2: Most of them are the same value
+  - BldgType: Most of them are the same value (group?)
+  - HouseStyle: 2 values have the most of the occurrences (group?)
+  - OverallQual: seems important!
+  - OverallCond
+
+
+  ImportantColumns

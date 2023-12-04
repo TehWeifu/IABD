@@ -2,7 +2,7 @@ import pandas as pd
 import sweetviz as sv
 
 # Solicitar al usuario el nombre del archivo
-file_path = 'Activity02/Resources/sales.csv'
+file_path = 'Activity03/Resources/Calificaciones.xlsx'
 
 # Leer datos desde el archivo proporcionado por el usuario
 if file_path.endswith('.csv'):

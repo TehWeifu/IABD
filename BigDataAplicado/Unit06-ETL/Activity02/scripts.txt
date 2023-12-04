@@ -1,0 +1,3 @@
+./pan.sh -file:"/home/bigdata/Escritorio/ETL-Act2/Transformation-Main.ktr"
+
+./kitchen.sh -file:"/home/bigdata/Escritorio/ETL-Act2/Job-Main.kjb"

@@ -1,0 +1,12 @@
+Paciente: Andrés Gómez
+Fecha: 2024-05-10
+Edad: 60
+Sexo: Hombre
+Historial Médico:
+- Código: A20240501
+- Síntomas: Mareos, dolor de cabeza
+- Patología: Hipertensión
+- Gravedad: Moderada
+- Tratamiento: Medicamentos antihipertensivos y cambio en la dieta
+Próxima Cita: 2024-05-25
+

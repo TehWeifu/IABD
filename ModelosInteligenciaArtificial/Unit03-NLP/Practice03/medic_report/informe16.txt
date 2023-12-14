@@ -1,0 +1,12 @@
+Paciente: Luis Morales
+Fecha: 2025-02-10
+Edad: 38
+Sexo: Hombre
+Historial Médico:
+- Código: L20250201
+- Síntomas: Dolor de garganta, fiebre
+- Patología: Amigdalitis
+- Gravedad: Leve
+- Tratamiento: Antibióticos y reposo
+Próxima Cita: 2025-02-25
+

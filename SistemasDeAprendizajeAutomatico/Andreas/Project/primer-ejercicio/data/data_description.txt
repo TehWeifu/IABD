@@ -122,13 +122,13 @@ Condition2: Proximity to various conditions (if more than one is present)
 		
        Artery	Adjacent to arterial street
        Feedr	Adjacent to feeder street	
-       Norm	Normal	
-       RRNn	Within 200' of North-South Railroad
-       RRAn	Adjacent to North-South Railroad
-       PosN	Near positive off-site feature--park, greenbelt, etc.
-       PosA	Adjacent to postive off-site feature
-       RRNe	Within 200' of East-West Railroad
-       RRAe	Adjacent to East-West Railroad
+       Norm	    Normal
+       RRNn	    Within 200' of North-South Railroad
+       RRAn	    Adjacent to North-South Railroad
+       PosN	    Near positive off-site feature--park, greenbelt, etc.
+       PosA	    Adjacent to postive off-site feature
+       RRNe	    Within 200' of East-West Railroad
+       RRAe	    Adjacent to East-West Railroad
 	
 BldgType: Type of dwelling
 		
@@ -356,7 +356,7 @@ Electrical: Electrical system
        FuseA	Fuse Box over 60 AMP and all Romex wiring (Average)	
        FuseF	60 AMP Fuse Box and mostly Romex wiring (Fair)
        FuseP	60 AMP Fuse Box and mostly knob & tube wiring (poor)
-       Mix	Mixed
+       Mix	    Mixed
 		
 1stFlrSF: First Floor square feet
  
@@ -481,9 +481,9 @@ Fence: Fence quality
 		
        GdPrv	Good Privacy
        MnPrv	Minimum Privacy
-       GdWo	Good Wood
-       MnWw	Minimum Wood/Wire
-       NA	No Fence
+       GdWo	    Good Wood
+       MnWw	    Minimum Wood/Wire
+       NA	    No Fence
 	
 MiscFeature: Miscellaneous feature not covered in other categories
 		
@@ -502,16 +502,16 @@ YrSold: Year Sold (YYYY)
 
 SaleType: Type of sale
 		
-       WD 	Warranty Deed - Conventional
-       CWD	Warranty Deed - Cash
-       VWD	Warranty Deed - VA Loan
-       New	Home just constructed and sold
-       COD	Court Officer Deed/Estate
-       Con	Contract 15% Down payment regular terms
+       WD 	    Warranty Deed - Conventional
+       CWD	    Warranty Deed - Cash
+       VWD	    Warranty Deed - VA Loan
+       New	    Home just constructed and sold
+       COD	    Court Officer Deed/Estate
+       Con	    Contract 15% Down payment regular terms
        ConLw	Contract Low Down payment and low interest
        ConLI	Contract Low Interest
        ConLD	Contract Low Down
-       Oth	Other
+       Oth	    Other
 		
 SaleCondition: Condition of sale
 

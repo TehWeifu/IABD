@@ -1,0 +1,12 @@
+Paciente: José Ramírez
+Fecha: 2023-11-02
+Edad: 55
+Sexo: Hombre
+Historial Médico:
+- Código: J20231101
+- Síntomas: Congestión nasal, estornudos
+- Patología: Resfriado común
+- Gravedad: Moderada
+- Tratamiento: Reposo y medicamentos antihistamínicos
+Próxima Cita: 2023-11-17
+

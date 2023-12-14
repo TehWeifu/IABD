@@ -1,0 +1,12 @@
+Paciente: Patricia Torres
+Fecha: 2025-06-10
+Edad: 45
+Sexo: Mujer
+Historial Médico:
+- Código: P20250601
+- Síntomas: Dolor de cabeza, fatiga
+- Patología: Migraña
+- Gravedad: Moderada
+- Tratamiento: Analgésicos y reposo
+Próxima Cita: 2025-06-25
+

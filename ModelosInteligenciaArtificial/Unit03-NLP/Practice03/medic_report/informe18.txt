@@ -1,0 +1,12 @@
+Paciente: Rafael Soto
+Fecha: 2025-05-15
+Edad: 50
+Sexo: Hombre
+Historial Médico:
+- Código: R20250501
+- Síntomas: Dolor en el pecho, falta de aire
+- Patología: Infarto agudo de miocardio
+- Gravedad: Grave
+- Tratamiento: Hospitalización, medicamentos y rehabilitación cardíaca
+Próxima Cita: Seguimiento continuo
+

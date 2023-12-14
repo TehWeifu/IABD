@@ -1,0 +1,12 @@
+Paciente: Gabriela Vargas
+Fecha: 2025-03-20
+Edad: 27
+Sexo: Mujer
+Historial Médico:
+- Código: G20250301
+- Síntomas: Tos persistente, fatiga
+- Patología: Resfriado común
+- Gravedad: Moderada
+- Tratamiento: Reposo y jarabe expectorante
+Próxima Cita: 2025-04-05
+

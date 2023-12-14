@@ -1,0 +1,14 @@
+Asunto: Recordatorio de Reunión
+
+De: María López maria.lopez@email.com
+Para: Marcos marcos@email.com
+Fecha: [Fecha Actual]
+
+Hola Marcos,
+
+Solo un amistoso recordatorio sobre nuestra reunión programada para el próximo martes a las 15:30. Estaremos discutiendo los avances del proyecto de desarrollo, y será genial contar con tu perspectiva. Además, Carla y Juan estarán presentes, así que será una reunión productiva. 
+
+¡Esperamos verte por Sevilla!
+
+Saludos,
+María

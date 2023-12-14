@@ -1,0 +1,12 @@
+Paciente: Sergio Castro
+Fecha: 2024-11-10
+Edad: 30
+Sexo: Hombre
+Historial Médico:
+- Código: S20241101
+- Síntomas: Picor en los ojos, secreción nasal
+- Patología: Alergia estacional
+- Gravedad: Leve
+- Tratamiento: Antihistamínicos y evitar alérgenos
+Próxima Cita: 2024-11-25
+

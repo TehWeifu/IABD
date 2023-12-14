@@ -1,0 +1,12 @@
+Paciente: Carmen López
+Fecha: 2024-12-25
+Edad: 48
+Sexo: Mujer
+Historial Médico:
+- Código: C20241201
+- Síntomas: Dolor abdominal, vómitos
+- Patología: Gastroenteritis
+- Gravedad: Moderada
+- Tratamiento: Reposo, hidratación y dieta blanda
+Próxima Cita: 2025-01-10
+

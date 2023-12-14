@@ -1,0 +1,12 @@
+Paciente: Carolina Díaz
+Fecha: 2024-03-22
+Edad: 25
+Sexo: Mujer
+Historial Médico:
+- Código: C20240301
+- Síntomas: Dolor abdominal, náuseas
+- Patología: Gastroenteritis
+- Gravedad: Leve
+- Tratamiento: Hidratación y dieta blanda
+Próxima Cita: 2024-04-06
+

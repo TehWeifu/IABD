@@ -2,11 +2,6 @@ Houses - Stuff to consider
 
 TODO:
  - Better check if duplicated entries??
- - Functional is important?
-
-
-- 'Exterior1st' and 'Exterior2nd' have the same values for the most part
-
 
 Columns:
   - MSZoning: most of the columns have the value 'RL'
@@ -26,4 +21,10 @@ Columns:
   - OverallCond
 
 
-  ImportantColumns
+ ImportantColumns
+
+ Columns to check
+
+YrSold: Crisis at 2008? Split between pre and post crisis? Test several
+Functional: Split between typ and not type
+

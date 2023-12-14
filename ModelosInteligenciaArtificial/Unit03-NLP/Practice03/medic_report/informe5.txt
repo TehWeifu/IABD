@@ -1,0 +1,12 @@
+Paciente: Laura Sánchez
+Fecha: 2023-10-12
+Edad: 32
+Sexo: Mujer
+Historial Médico:
+- Código: L20231001
+- Síntomas: Dolores musculares, dolor de cabeza
+- Patología: Gripe común
+- Gravedad: Leve
+- Tratamiento: Analgésicos y reposo
+Próxima Cita: 2023-10-27
+

@@ -1,0 +1,12 @@
+Paciente: Alejandro Torres
+Fecha: 2024-08-15
+Edad: 42
+Sexo: Hombre
+Historial Médico:
+- Código: A20240801
+- Síntomas: Dolor en las articulaciones, fatiga
+- Patología: Artritis
+- Gravedad: Moderada
+- Tratamiento: Antiinflamatorios y terapia física
+Próxima Cita: 2024-08-30
+

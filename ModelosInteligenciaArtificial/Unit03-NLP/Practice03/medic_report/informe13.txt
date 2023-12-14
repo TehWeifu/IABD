@@ -1,0 +1,12 @@
+Paciente: Isabel Ramírez
+Fecha: 2024-09-20
+Edad: 55
+Sexo: Mujer
+Historial Médico:
+- Código: I20240901
+- Síntomas: Palpitaciones, falta de aire
+- Patología: Arritmia cardíaca
+- Gravedad: Moderada
+- Tratamiento: Medicamentos antiarrítmicos y monitoreo cardíaco
+Próxima Cita: 2024-10-05
+

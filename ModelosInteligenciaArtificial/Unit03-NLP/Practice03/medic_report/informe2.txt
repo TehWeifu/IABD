@@ -1,0 +1,12 @@
+Paciente: Juan Pérez
+Fecha: 2023-06-10
+Edad: 45
+Sexo: Hombre
+Historial Médico:
+- Código: J20230601
+- Síntomas: Tos persistente, fatiga
+- Patología: Resfriado común
+- Gravedad: Moderada
+- Tratamiento: Reposo y jarabe expectorante
+Próxima Cita: 2023-06-25
+

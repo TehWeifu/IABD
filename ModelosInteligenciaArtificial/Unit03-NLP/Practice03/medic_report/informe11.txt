@@ -1,0 +1,12 @@
+Paciente: Diana Muñoz
+Fecha: 2024-06-28
+Edad: 35
+Sexo: Mujer
+Historial Médico:
+- Código: D20240601
+- Síntomas: Picazón en la piel, enrojecimiento
+- Patología: Dermatitis alérgica
+- Gravedad: Leve
+- Tratamiento: Crema antiinflamatoria y evitar alérgenos
+Próxima Cita: 2024-07-13
+

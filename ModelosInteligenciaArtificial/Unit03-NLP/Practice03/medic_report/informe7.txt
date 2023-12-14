@@ -1,0 +1,12 @@
+Paciente: Marta López
+Fecha: 2023-12-18
+Edad: 40
+Sexo: Mujer
+Historial Médico:
+- Código: M20231201
+- Síntomas: Dolor de garganta, fiebre
+- Patología: Amigdalitis
+- Gravedad: Moderada
+- Tratamiento: Antibióticos y reposo
+Próxima Cita: 2024-01-02
+

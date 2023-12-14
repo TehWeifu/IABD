@@ -1,0 +1,12 @@
+Paciente: Raúl Fernández
+Fecha: 2024-02-05
+Edad: 48
+Sexo: Hombre
+Historial Médico:
+- Código: R20240201
+- Síntomas: Tos seca, dificultad para respirar
+- Patología: Asma
+- Gravedad: Grave
+- Tratamiento: Inhaladores y corticosteroides
+Próxima Cita: 2024-02-20
+

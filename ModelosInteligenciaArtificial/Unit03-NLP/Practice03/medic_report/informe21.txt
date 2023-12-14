@@ -1,0 +1,12 @@
+Paciente: Laura Sánchez (segunda visita)
+Fecha: 2025-08-20
+Edad: 32
+Sexo: Mujer
+Historial Médico:
+- Código: L20250801
+- Síntomas: Dolores musculares, dolor de cabeza
+- Patología: Gripe común
+- Gravedad: Leve
+- Tratamiento: Analgésicos y reposo
+Próxima Cita: 2025-09-05
+

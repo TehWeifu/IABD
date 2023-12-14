@@ -1,0 +1,12 @@
+Paciente: María Rodríguez
+Fecha: 2023-04-20
+Edad: 35
+Sexo: Mujer
+Historial Médico:
+- Código: G20230402
+- Síntomas: Fiebre, dolor de cabeza
+- Patología: Gripe común
+- Gravedad: Leve
+- Tratamiento: Analgésicos y reposo
+Próxima Cita: 2023-05-05
+

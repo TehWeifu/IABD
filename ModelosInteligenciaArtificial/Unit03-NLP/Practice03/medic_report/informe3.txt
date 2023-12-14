@@ -1,0 +1,12 @@
+Paciente: Ana Gutiérrez
+Fecha: 2023-07-15
+Edad: 28
+Sexo: Mujer
+Historial Médico:
+- Código: A20230701
+- Síntomas: Dolor de garganta, congestión nasal
+- Patología: Resfriado común
+- Gravedad: Leve
+- Tratamiento: Reposo y analgésicos
+Próxima Cita: 2023-08-01
+

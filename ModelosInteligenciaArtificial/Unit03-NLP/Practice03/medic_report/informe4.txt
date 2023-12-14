@@ -1,0 +1,12 @@
+Paciente: Carlos Martínez
+Fecha: 2023-09-05
+Edad: 50
+Sexo: Hombre
+Historial Médico:
+- Código: C20230901
+- Síntomas: Fiebre, tos seca
+- Patología: COVID-19
+- Gravedad: Moderada
+- Tratamiento: Aislamiento, medicamentos antivirales
+Próxima Cita: 2023-09-20
+

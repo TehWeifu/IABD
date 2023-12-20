@@ -1,9 +1,9 @@
-
-### GET request with parameter
+### Listar todas las tareas
 GET http://localhost:5000/tasks
 Accept: application/json
 
-### POST request with parameter
+
+### Agregar una tarea
 POST http://localhost:5000/tasks
 Accept: application/json
 Content-Type: application/json
@@ -11,3 +11,38 @@ Content-Type: application/json
 {
   "Description": "Study"
 }
+
+
+### Editar una tarea en concreto
+PUT http://localhost:5000/tasks?task=2
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Description": "Study-Updated",
+  "Completed": 1
+}
+
+
+### Completar una tarea
+PUT http://localhost:5000/check-task?task=2
+Accept: application/json
+Content-Type: application/json
+
+
+### Cambiar una tarea de completa a incompleta
+PUT http://localhost:5000/uncheck-task?task=2
+Accept: application/json
+Content-Type: application/json
+
+
+### DELETE borrar una tarea
+DELETE http://localhost:5000/tasks?task=3
+Accept: application/json
+Content-Type: application/json
+
+
+### Borrar todas las tareas finalizadas
+DELETE http://localhost:5000/completed-tasks
+Accept: application/json
+Content-Type: application/json

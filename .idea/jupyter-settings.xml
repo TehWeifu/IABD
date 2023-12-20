@@ -8,6 +8,12 @@
             <JupyterConnectionParameters>
               <option name="managed" value="true" />
               <option name="sdkName" value="" />
+              <option name="environmentVariables">
+                <map>
+                  <entry name="PYSPARK_DRIVER_PYTHON" value="jupyter" />
+                  <entry name="PYSPARK_PYTHON" value="python" />
+                </map>
+              </option>
             </JupyterConnectionParameters>
           </value>
         </entry>

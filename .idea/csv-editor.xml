@@ -31,6 +31,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\ETL-Practice04-JBSL\ETL04_Villages_Sample.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\ETL-Practice04-JBSL\ETL\Resources\cod-habitantes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\ETL-Practice04-JBSL\ETL\Resources\jaen.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\ETL-Practice04-JBSL\ETL\Resources\municipios.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\BigDataAplicado\Unit06-ETL\Paises.csv">
           <value>
             <Attribute>
@@ -39,6 +67,13 @@
           </value>
         </entry>
         <entry key="\ProgramacionDeInteligencia\Raul\TaskListApi\tasks.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityAthena\Ventas_Athena.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

@@ -87,13 +87,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\ProgramacionDeInteligencia\Raul\TaskListApi\tasks.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityAthena\Ventas_Athena.csv">
           <value>
             <Attribute>

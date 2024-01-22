@@ -1,0 +1,14 @@
+### GET request with parameter
+GET http://localhost:5000/hc
+Accept: application/json
+
+### POST request with image
+POST http://localhost:5000/predict
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="digit"; filename="malza.jpeg"
+Content-Type: image/png
+
+< ./malza.jpeg
+--WebAppBoundary--

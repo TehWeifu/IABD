@@ -41,7 +41,15 @@ ORDER BY Id, Date
 -- Recuperar las ventas que ocurrieron en el último año.
 SELECT *
 FROM Sales
-WHERE Date LIKE CONCAT((SELECT YEAR (MAX (Date)) FROM Sales), '%')
+WHERE Date LIKE CONCAT((SELECT YEAR (MAX (Date)) - 1 FROM Sales), '%')
 
 
 -- Número de ventas por hora trabajada.
+SELECT Employees.Id,
+       Employees.Name,
+       COUNT(Sales.EmployeeId) / (SUM(Shifts.`ShiftDuration`) / 3600) AS SalesPerHour
+FROM Employees
+         JOIN Sales ON Employees.Id = Sales.EmployeeId
+         JOIN Shifts ON Employees.Id = Shifts.EmployeeId
+GROUP BY Employees.Id, Employees.Name
+ORDER BY SalesPerHour DESC;

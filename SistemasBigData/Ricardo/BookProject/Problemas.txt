@@ -1,0 +1,9 @@
+Problemas de los datos:
+	- Los libros tienen una cabecera y un pie de pagina en ingles, sobre el projecto Gutenberg. Sera necesario eliminarlo antes de procesar los textos.
+	- Existen librerias con libros sin derechos de autor, pero no existe opcion de descargar en blqoue por lo que hay que descargarlos 1 a 1
+	- Los libros tienen índices y meta-información que puede ser irrevalante
+
+
+Posibles ideas:
+	- Poder identificar autores a traves de fragmentos de texto anonimos
+	- Poder catalogar un libro (genero, novela/poesia, etc...)

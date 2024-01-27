@@ -1,29 +1,53 @@
-# Digit prediction model API
+# Digit prediction API
 
-This API allows the client to predict which digit in handwritten in a given image, returning the digit and its
-confidence
+This API allows the client to predict which digit is handwritten in a given image, returning the digit and its
+confidence.
+
+## Setup
+
+- **Model**: TensorFlow model loaded from `./../Model/digit_model.h5`
 
 ## Endpoints
 
-### hc (Heal Check)
+### 1. Health Check (`/hc`)
 
-This endpoint returns the current server time and the time in seconds since starting the server
+- **Method**: GET
+- **Description**: Returns the current server date and time, along with the uptime since the app's launch.
+- **Parameters**: None
+- **Response Format**: JSON object with keys:
+    - date: Current date and time of the server
+    - uptime: seconds since the server was launched
 
-* URL: /hc
-* Method: GET
-* Parameters: None
-* Response: JSON object with the following keys
-    * date: Current date and time of the server
-    * timestamp: second since the sever was launched
+- **Examples**
+    - Success response:
+        ```json
+        {
+            "date": "January 27, 2024 14:35:31",
+            "uptime": "4928.41"
+        }
+        ```
 
-### predict
+### 2. Predict (`/predict`)
 
-This endpoint predicts a digit given a picture
+- **Method**: POST
+- **Description**: Predicts a digit from a given picture
+- **Parameters**: Multi-part form with the following parameter
+    - digit: Image with a .jpg or .jpeg, .png extension
+- **Response**: JSON object with keys:
+    - digit: digit predicted by the model
+    - score: confidence of the model predicting the digit (0 to 1)
 
-* URL: /predict
-* Method: POST
-* Parameters: Multi-part form with the following parameter
-    * digit: Image with a .jpg or .jpeg, .png extension
-* Response: JSON object with the following keys
-    * prediction: the digit predicted by the model
-    * score: the confidence of the model predicting the digit (0 to 1)
+- **Examples**
+    - Success Response:
+        ```json
+        {
+          "digit": "1",
+          "score": "0.99"
+        }
+        ```
+    - Error Response:
+        ```json
+        {
+           "msg": "Error message."
+        }
+        ```

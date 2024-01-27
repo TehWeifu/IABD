@@ -52,6 +52,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity03\ETL-Act3\Resources\Actividades.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\BigDataAplicado\Unit06-ETL\Activity03\Resources\Actividades.csv">
           <value>
             <Attribute>
@@ -87,6 +94,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\Resources\cod-habitantes.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\BigDataAplicado\Unit06-ETL\Activity04\Resources\jaen.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\BigDataAplicado\Unit06-ETL\Activity04\Resources\municipios.csv">
           <value>
             <Attribute>
@@ -108,7 +129,42 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise20\mario.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise23\wine.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit06-NeuralNetworks\lung_cancer\survey_lung_cancer.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Raul\TaskListApi\tasks.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityAthena\Ventas_Athena.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityGlue02\Bikers_Dup.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -137,6 +193,20 @@
           </value>
         </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\primer-ejercicio\data\house-price-data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Cesar\Unit02-Pandas\Exercises\Exercise1\flowers.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Cesar\Unit02-Pandas\Exercises\Exercise1\flowers_indexed.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

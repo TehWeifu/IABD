@@ -2,6 +2,8 @@ import random
 import time
 from datetime import datetime
 import tensorflow as tf
+import cv2
+import numpy as np
 
 from flask import Flask, request, jsonify
 
@@ -9,7 +11,7 @@ app = Flask(__name__)
 
 launch_time = time.time_ns()
 
-# model = tf.keras.models.load_model('model_digits.h5')
+model = tf.keras.models.load_model('./../Model/digit_model.h5')
 
 IMG_EXTENSIONS = ('png', 'jpg', 'jpeg')
 
@@ -39,9 +41,22 @@ def predict():
     if file_extension not in IMG_EXTENSIONS:
         return jsonify({f'msg': f"The image must have a {', '.join(IMG_EXTENSIONS)} extension"}), 400
 
-    prediction = amazing_prediction_100_accurate_no_fake_4k()
+    img_dim = (8, 8)
+    image = cv2.imread(my_file.filename, cv2.IMREAD_GRAYSCALE)
+    image = cv2.resize(image, img_dim, interpolation=cv2.INTER_AREA)
+    image = image / 255.0
+    image = np.expand_dims(image, axis=-1)
+    image = np.expand_dims(image, axis=0)
 
-    return jsonify(prediction)
+    prediction = model.predict(image)
+
+    value = int(prediction[0].max())
+    index = int(prediction[0].argmax())
+
+    return jsonify({
+        'prediction': index,
+        'score': value,
+    })
 
 
 def amazing_prediction_100_accurate_no_fake_4k():

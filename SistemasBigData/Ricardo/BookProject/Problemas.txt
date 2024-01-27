@@ -7,3 +7,32 @@ Problemas de los datos:
 Posibles ideas:
 	- Poder identificar autores a traves de fragmentos de texto anonimos
 	- Poder catalogar un libro (genero, novela/poesia, etc...)
+
+
+Tareas
+- Top 20 de:
+	- Palabras
+	- Verbos (3 tiempos verbales)
+	- Nombres
+	- Adjetivos
+	- Expressiones
+	- N.Propios(Ciudades, Restos)
+- Saber en que persona esta escrito el libro
+
+- Hay que elaborar una tabla con las siguientes columnas (20 filas por libro):
+  	- Texto: nombre del libro
+	- Verbo:
+	- Verbo count
+	- Palabras
+	- Palabras count
+	- Nombres
+	- Nombres count
+	- Adjetivos
+	- Adjetivos count
+	- Expresiones
+	- Expresiones count
+	- Nombres propios (ciudades)
+	- Nombres propios (ciudades) count
+	- Nombres propios (resto)
+	- Nombres propios (resto) count
+	

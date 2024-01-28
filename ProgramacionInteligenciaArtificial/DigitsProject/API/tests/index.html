@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <title>Digits</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            background-color: lightpink;
+            height: 100vh;
+            font-family: Arial, serif;
+        }
+
+        h1 {
+            font-size: 5em;
+        }
+
+        form {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        form * {
+            padding: 10px;
+        }
+
+        input[type="submit"] {
+            padding: 10px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 1.5em;
+            cursor: pointer;
+        }
+
+        .result,
+        .apiError {
+            display: none;
+        }
+    </style>
 </head>
 <body>
 <h1>Digit prediction </h1>
 <div>
     <form action="" method="post" enctype="multipart/form-data">
-        <h3>Introduce your digit</h3>
+        <h3>Upload your digit picture</h3>
         <input id="inputImage" type="file" name="digit" accept="image/*" required>
         <br>
         <input type="submit" value="Predict">
@@ -17,18 +55,23 @@
 
 <br>
 <div class="result">
-    <!--    <p>Digit: <span class="digit"></span></p>-->
-    <!--    <p>Score: <span class="digit"></span></p>-->
+    <h3>Prediction results</h3>
+    <p>Digit: <span class="digit"></span></p>
+    <p>Score: <span class="score"></span></p>
+</div>
+<div class="apiError">
+    API error occurred
 </div>
 
 </body>
 
 <script>
-    console.log('hola')
-
     const myForm = document.querySelector('form')
     const inputImage = document.querySelector('#inputImage')
     const response = document.querySelector('.result')
+    const responseDigit = document.querySelector('.digit')
+    const responseScore = document.querySelector('.score')
+    const responseError = document.querySelector('.apiError')
 
     myForm.addEventListener('submit', (e) => {
         e.preventDefault()
@@ -43,10 +86,17 @@
         })
             .then(response => response.json())
             .then(data => {
-                response.innerHTML = `<p>API Response: ${JSON.stringify(data)}</p>`;
+                response.style.display = "block"
+                responseError.style.display = "none"
+
+                responseDigit.innerHTML = data.digit
+                responseScore.innerHTML = data.score
             })
             .catch(error => {
-                response.innerHTML = `<p>Error: ${error.message}</p>`;
+                response.style.display = "none"
+                responseError.style.display = "block"
+
+                responseError.innerHTML = `<p>Message: ${error.message}</p>`;
             });
     })
 </script>

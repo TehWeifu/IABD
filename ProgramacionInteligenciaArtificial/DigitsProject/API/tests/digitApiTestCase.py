@@ -14,11 +14,11 @@ class FlaskApiTestCase(unittest.TestCase):
 
     def test_health_check(self):
         response = self.app.get('/hc')
-        data = json.loads(response.data.decode('utf-8'))
+        payload = json.loads(response.data.decode('utf-8'))
 
         self.assertEqual(response.status_code, 200)
-        self.assertIn('date', data)
-        self.assertIn('uptime', data)
+        self.assertIn('date', payload)
+        self.assertIn('uptime', payload)
 
     def test_predict_without_image(self):
         response = self.app.post('/predict')
@@ -33,26 +33,24 @@ class FlaskApiTestCase(unittest.TestCase):
         data = json.loads(response.data.decode('utf-8'))
 
         self.assertEqual(response.status_code, 415)
-        # Assuming the error message for invalid extension is properly set in your Flask app
-        self.assertTrue("the image must have a" in data['msg'].lower())
+        self.assertIn("the image must have a", data['msg'].lower())
 
     def test_upload_file(self):
-        file_path = 'API/tests/datasetDigits/7.png'
+        file_path = 'API/tests/datasetDigits/0.png'
         self.assertTrue(os.path.exists(file_path))
 
         with open(file_path, 'rb') as file:
             data = {
                 'digit': (file, os.path.basename(file_path))
             }
-            # POST request to upload the file
             response = self.app.post('/predict', data=data, content_type='multipart/form-data')
+            payload = json.loads(response.data.decode('utf-8'))
 
             self.assertEqual(response.status_code, 200)
-            # Add more assertions here based on your API's expected response
 
+            self.assertIn('digit', payload)
+            self.assertIn('score', payload)
 
-# Additional tests can be written for valid image input to '/predict' endpoint,
-# but it would require a valid image file or mock.
 
 if __name__ == '__main__':
     unittest.main()

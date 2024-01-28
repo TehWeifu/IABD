@@ -51,3 +51,11 @@ confidence.
            "msg": "Error message."
         }
         ```
+
+## Testing
+
+There are 3 ways to test and try out the model making use of the API. All found in (`/API/tests`):
+
+- **Tests**: functional tests for both endpoints of the API, testing both successful and error responses.
+- **.http file**: simple way to make direct requests to the server. Requires a client which can run them.
+- **Client**: webpage which allows to upload a picture and display the results

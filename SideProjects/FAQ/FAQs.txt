@@ -1,0 +1,582 @@
+Q&A - FAQs
+
+-	¿Son compatibles nuestros equipos con una pre-instalación ongrid?
+o	Somos 100% compatibles porque no necesitamos comunicación con las instalaciones previas.
+
+-	¿Hay posibilidad de conectar un aero-generador a nuestro inversor híbrido?
+o	Sí, a través del GenPort pero la salida del aero-generador tiene que ser en AC y con señal estable.
+
+-	¿Se puede conectar un aero-generador y/ó un generador estando el cliente sin conexión a la red?
+o	Sí, a través del GenPort el aero-generador y el generador al Puerto de Red. Eléctricamente es factible aunque el funcionamiento puede ser inestable.
+
+-	¿Tenéis compatibilidad con inversores Huawei ya pre-instalados?
+o	Somos 100% compatibles sin comunicación.
+
+-	¿Qué tipo de tensión se emplea para las conexiones en paralelo al embarrado?
+o	El 100% de las ocasiones, es en tensión baja.
+
+-	¿Existe opción de venta de excedentes de energía a red?
+o	El equipo tiene funcionalidad de venta de excedentes y zero export to grid además de acumulación de excedentes con baterías.
+
+-	En Industrial, ¿Potencias de 30Kw es viable?
+o	En ese caso, mejor instalar tres SBR en paralelo. A partir de +31Kw, es mejor un SBI de 50Kw.
+
+-	¿Es viable un almacenamiento inferior a 50Kwh?
+o	Para eso, mejor instalar tres SBR en paralelo. A partir de +31Kwh, es mejor un SBI de 50Kwh.
+
+-	¿Se puede aumentar la potencia a +50Kw sin llegar a 100Kw?
+o	Sí, se pueden añadir Kw adicionales ongrid que entren por el Genport.
+
+-	¿Cómo lo hacéis cuando hay corriente alterna?
+o	Nos conectamos en paralelo, en alterna y al embarrado; siempre en baja tensión salvo proyectos concretos.
+
+-	¿Cuánto mejoráis la ineficiencia ongrid causada por el vertido cero?
+o	Aportamos en torno a un 4-8% de mejora.
+
+-	¿Cuál es vuestro ratio  €/Kw?
+o	Una horquilla que va desde 400,00€/Kw a 600,00€/Kw; dependiendo de cuanto almacenamiento se instale ( a más Kwh, más bajo el coste €/Kw ).
+
+-	¿Tenemos IP 67 de exterior en nuestro armario, como Huawei?
+o	No, para exterior se ha de montar en caseta exterior ó contenedor marítimo.
+
+-	En exterior, ¿necesitaría ventilación?
+o	Ha de tener mínimo 2.000m3 de volumen para la correcta ventilación.
+
+-	¿Cuál es vuestra máxima capacidad almacenamiento?
+o	De momento, 8Mwh.
+
+-	¿Cuánto garantía tenéis?
+o	Ofrecemos 10 años de garantía.
+
+-	¿Es necesario tener instaladores muy formados?
+o	Formamos y homologamos a los instaladores en nuestras instalaciones de Onda, Castellón.
+o	Además, acompañamos en la primera instalación aunque al ser Plug&Play AllInOne no hace falta una alta formación.
+
+-	¿Cuánto se tarda en instalar?
+o	Sobre una jornada contra las 4-5 de otros competidores.
+
+-	¿Sois modulares?
+o	Completamente modulares de 50Kw en Kw y en Kwh, muy flexibles, hasta 500kW y 8MWh.
+
+-	¿Tendremos problemas de mala instalación?
+o	Con nuestro sistema Plug & Play All-In-One no hay opciones al error de instalación.
+
+-	¿Se prende fuego?
+o	No, al estar garantizado desde fábrica, se evita ese riesgo.
+
+-	¿Puedo ser 100% independiente de la red?
+o	Si la generación es suficiente, la acumulación lo permite al ser la capacidad de descarga de las baterías 1C.
+
+-	¿Evitamos la volatilidad de precios ó de la red por caídas?
+o	Con el uso del backup, que puede ser automático ó manual, evitas la volatilidad de la red; y con la IA y la suficiente acumulación, evitas los picos altos del mercado.
+
+-	¿Tememos control remoto?
+o	Sí, con la App en el móvil se pueden consultar y establecer los parámetros de la planta en cada momento.
+
+-	¿Aprovechamos los datos?
+o	Sí, con Machine Learning para aprender de la curva de carga diaria y mejorar el trading y abaratar el consumo de red.
+
+-	¿Podemos meter más de 500Kw de carga?
+o	No, no nos sentimos cómodos con más de 10 inversores híbridos de 50Kw c/u en paralelo.
+o	Se pueden hacer las instalaciones que sean necesarias para alcanzar los kW de carga que se requieran, con el máximo de 10 inversores híbridos de 50Kw c/u en paralelo.
+
+-	¿Cuánto almacenamiento podemos tener?
+o	Un máximo de 8Mwh. De momento.
+
+-	¿Cuál es la relación óptima entre potencia y almacenamiento?
+o	½ ó ¼ es lo más óptimo.
+
+
+
+-	¿Qué es el Peack Shaving?
+o	Evitar exceder de la potencia contratada, evitando el gasto extra. De hecho, se puede optimizar para bajar la potencia contratada empleando las baterías adecuadas.
+o	En resumen, poder limitar la potencia que queremos consumir de la red.
+
+-	¿Cómo monitorizamos el estado del posible producción solar?
+o	Estamos conectados en tiempo real con el Meteosat.
+
+-	¿Cómo me protege el SBI frente a una tormenta?
+o	Estamos conectados en tiempo real con el Meteosat y protegemos los procesos críticos que el cliente decida con el Backup antes de que sea tarde.
+
+-	Pero, la IA, ¿para que me sirve?
+o	Para escoger la opción más barata en cada momento teniendo en cuenta el precio de la red en tiempo real, la producción solar y lo almacenado, cotejándolo con la curva de carga, vamos, que sabe lo que gastas en cada momento y elige la opción más barata pero que cubra con holgura la carga que se necesita. Combinando en tiempo real el tiempo, la meteorología para saber producción solar y lo relacionamos con la curva de carga real.
+
+-	Ya, ya, ¿pero eso de tradear?
+o	Si ha de comprar de la red, elige siempre el valle de precio para que te salga más barato.
+
+-	Mucho diseño, ¿pero es seguro?
+o	El diseño lleva la seguridad implícita, de hecho, se monta en fábrica exactamente para maximizar la seguridad. Y es bonito, además.
+
+-	¿Tiene vicios ocultos en la instalación?
+o	No, en nuestro caso no hay sustos a posteriori.
+
+-	¿Por qué mi antigua instalación no necesitaba baterías para ser rentable?
+o	Porque se dimensionaban a propósito para que no hubiera excedente, aún a costa de dejar gran parte de las cubiertas ó superficies aprovechables desiertas.
+
+-	En aislada ó con una pre-instalación ongrid, ¿cómo conectamos y dimensionamos un generador a un inversor de XXkW?
+o	Conectando por el genport ( carga, nulo y toma de tierra ) y, como máximo, igualando la potencia de carga del inversor.
+	Un inversor de 100kW puede asumir carga por el genport desde un generador de máximo 100kW.
+	Los genport estándar se fabrican para 50kW, si ha de ser de más, se ha de avisar previamente para avisar a fábrica.
+
+-	Para plantas FV creadas ó amparadas por el RD661, ¿es viable instalarles baterías para que almacenen el excedente y poder así rentabilizarlo a posteriori?
+o	Técnicamente es posible. Legalmente no es viable a día de hoy.
+
+
+
+
+-	¿Somos 100% valencianos?
+o	Somos 100% valencianos.
+o	Estamos cotizados en el Nasdaq.
+o	Tenemos una 1ª oleada de sistemas adaptados a la normativa EU.
+o	En breve, tendremos una 2ª oleada de sistemas adaptados a la normativa USA.
+
+-	¿Tenéis un protocolo para validar proyectos?
+o	Cada propuesta es ad hoc porque ejercemos de consultores iniciales de cada proyecto.
+o	En proyecto herramientas estandarizadas para facilitarlas a los instaladores y distribuidores.
+
+-	¿Es necesario un transformador adicional?
+o	No, no es necesario un transformador adicional.
+o	Trabajamos en baja y todo el sistema funciona en baja.
+
+-	¿Es todo en baja tensión?
+o	Todo es en baja tensión.
+
+-	¿Cada torre lleva su propia ventilación auto-suficiente?
+o	Cada torre viene de fábrica con su propia ventilación, son auto-suficientes.
+
+-	Vuestros precios, ¿llevan los portes incluidos?
+o	No, los precios son sin portes incluidos.
+o	Cada porte se verá por separado y se tarifará aparte.
+
+-	Vuestras baterías, ¿son 1C?
+o	Nuestras baterías pueden trabajar en 1C.
+o	Mantenemos siempre un margen de seguridad en la descarga del 10% para no degradar demasiado rápido las mismas.
+o	Nuestros competidores son de 0,5C.
+
+-	Los SunBox Industriales, ¿han de ir en algún lugar especial?
+o	Los SunBox Industriales son de interior.
+o	Si van en exterior, habría que construir / fabricar / comprar una caseta / contenedor con 2.000m3 de ventilación y aislado para exterior.
+o	Han de situarse donde su peso y tamaño no supongan un riesgo para el soporte.
+o	Lo óptimo es situarlos lo más cerca posible del lugar de conexión.
+
+-	¿Qué tamaño tienen un SBI?
+o	De alto todos son de 2,10m. y 0,6m. de profundidad. La anchura varía: 1m. para cada armario de inversores híbrido y 0,6m. para cada armario de acumulación y 0.8m. para cada armario de conmutadores ( en caso de que la instalación lo necesite por volumen superior a 150Kw ).
+
+-	¿Qué peso tiene un SBI?
+o	Los armarios de inversores y conmutadores son unos 150kg. c/u y los de baterías son unos 500 kg. c/u.
+
+
+
+-	¿El armario que aparece en las fotos es el armario base con la solución de 50 kW de potencia y 50 kWh de almacenamiento?
+o	El armario que aparece en las fotos es idéntico en diseño, aunque el de la foto pertenece a un sistema de mayor potencia y mayor almacenamiento que el que nos comentas de 50kW y 50kWh, por lo que es más largo.
+o	El armario al que haces referencia; de 50kW y 50kWh; tiene las siguientes dimensiones:
+	2,10m. de altura.
+	0,6m. de profundidad.
+	1,6ml. de largo, repartidos así:
+•	1 ml. de largo de 1 armario de inversores híbridos – 50kW.
+•	0,6ml. de largo de 1 armario de baterías – 50kWh.
+
+-	Según la presentación que mandaste, la solución es ampliable hasta una relación máxima de 500 kW de potencia en inversores y 2 MWh de almacenamiento. ¿Cuál es el tamaño de esta solución?
+
+o	Actualmente, nuestra solución es ampliable hasta:
+	Máximo 500kW de potencia.
+	Máximo 8MWh de almacenamiento, en lugar de los 2MWh que aparecen en la misma.
+	Es posible hacer configuraciones grapadas por la trasera y/ó en paralelo con pasillo central que reducen significativamente el espacio a ocupar.
+	El tamaño de dicha solución de 500kW y 2MWh sería:
+•	2,1m. de altura.
+•	0,6m. de profundidad.
+•	35 ml. de largo que se podrían meter sin apurar en 4 bancadas en una sala dedicada de 5x11 por ejemplo con dos pasillos internos.
+
+•	Detalle de las medidas por tipo de armario:
+o	10 ml. largo 10 armarios de inv. híbridos – 50kW c/u.
+o	24 ml. largo 40 armarios de baterías – 50kWh c/u.
+o	0,8 ml. largo 1 armario de conmutadores.
+
+-	¿Se pueden tener varias soluciones de 500 kW y 8MWh en la misma planta fotovoltaica? En caso afirmativo, ¿hay algún tipo de limitaciones técnicas? Por ejemplo, tener que instalar varios medidores.
+o	Si no es en aislada, los equipos han de estar comunicados entre ellos y a la red, no pueden ser islas independientes.
+o	En aislada, si las cargas están separadas, sería posible.
+o	Si cada sistema independiente tiene la lectura del meter en el mismo punto es posible que entren en conflicto para abastecer el consumo; especialmente a la hora de la exportación cero.
+o	El sistema es modulable hasta 500 kW porque se trata de una solución modular paralelizable de hasta 10 equipos de 50 kW.
+o	No se pueden paralelizar más en la misma red, quiere decir que no pueden más de 10 equipos dar un servicio de Back Up y regular el ajusta de Carga/descarga de baterías y el control de exportación 0.
+o	Con un número mayor esta solución se puede volver inestable.
+o	En ese sentido una planta con unos requerimientos mayores puede (si las cargas están bien compensadas) establecer diferentes Subcircuitos y en cada uno de ellos instalar una planta de 500 kW pero siendo consciente que podría darse la paradoja que una subplanta estuviera aplicando vertido 0 mientras que otra podría estar consumiendo de la red.
+
+-	¿Qué fabricantes de medidores son compatibles con esta solución y poder facilitar a la app de Turbo Energy información sobre los consumos del cliente?
+o	Si, podemos trabajar con CTs o con Meters.
+o	Los meters que utilizamos son de la marca Chint  y Eastron, de los cuales tenemos modelos de medida directa e indirecta.
+o	La App de Turbo Energy si facilita la información de los consumos al Cliente, pero dicha información no puede ser descargada. Para ello tenemos una plataforma de apoyo para lectura de todos los datos de la planta.
+o	En cualquier caso, los equipos necesarios para la monitorización de la planta, de la red y del consumo del cliente están incluidos.
+o	Hay que tener siempre en cuenta que los citados meters deben comunicarse con nuestra plataforma.
+
+-	¿El meter va integrado de alguna manera en el sistema de Sunbox?
+o	El SBI lleva incorporado unos CTs para lectura de la red.
+o	Si el punto de medida está a +20ml. es recomendable usar el meter externo, el cual no está incluido.
+
+-	¿Cómo se integra la solución de Sunbox Industrial cuando funciona en modo Retrofit?
+o	Nuestra solución RetroFit aprovecha el máximo de la producción solar de las instalaciones ongrid previas a nuestra llegada.
+o	Nuestra instalación se conecta en paralelo y en alterna al embarrado existente, asimilando la instalación previa por su puerto de FV.
+o	En aislada podemos aumentar la potencia con el mayor suministro que te aportan las baterías y/ó ampliando la producción.
+o	Funciona de forma equivalente a una instalación fotovoltaica híbrida, integrando la producción existente como si fuera propia con la única salvedad que la carga de las baterías viene de AC en lugar de DC.
+
+-	¿Funciona en conjunto como cerebro de toda la instalación fotovoltaica o funciona paralelamente únicamente cargando la batería cuando hay excedentes fotovoltaicos?
+o	Es el cerebro de la instalación FV que esté conectada a nuestro sistema.
+o	No hay comunicación con los inversores previos.
+
+-	¿Con qué inversores es compatible en comunicación para funcionar como solución Retrofit?
+o	No resulta necesaria la comunicación con los inversores siempre que exista una instalación previa de vertido 0.
+o	El sistema carga baterías cuando detecta que está próxima la intervención del vertido 0 de forma que ajusta la carga al excedente.
+o	Resulta necesario hacer un estudio previo del funcionamiento del sistema de vertido 0 de la planta existente para ajustar el modelo.
+
+-	¿Puede funcionar como sistema aislado de la red?
+o	Si, no es solo que puede actuar, es que el sistema incluye un conmutador mediante el cual cuando hay un fallo de suministro deslastra las cargas de la red y las conecta de forma Offgrid.
+o	Al estar desconectado de la red la funcionalidad de nuestra IA no puede interactuar con el pull de precios de mercado.
+
+-	¿Qué consideraciones hay que tener en cuenta cuando el sistema funciona Off-Grid?
+o	En aislada lo recomendable es doblar en kWh los kW de potencia.
+o	Nuestras baterías son 1C por lo que podemos tener una relación 1-1.
+o	Tenemos la funcionalidad de aumentar la producción mediante la opción de conectar un inversor ongrid por la entrada genport.
+o	Resulta imprescindible hacer un pequeño estudio para evaluar qué cargas queremos conectar a la salida conmutable y cuales directamente a red para evitar sobrecargar el sistema en modo Offgrid.
+
+
+-	¿Cómo aprovecha vuestra IA los precios que tengo contratados?
+o	Tarifa indexada: nos conectamos vía WiFi a los precios de la tarifa indexada de las próximas 24-48h. y usamos el conocimiento acumulado de la curva de carga del cliente para decidir en que momentos comprar barato para consumir lo acumulado en momentos de pico de precios.
+o	Tarifa 6.1TD para industriales: cargamos los precios de los 6 periodos en nuestra IA y ella realiza el mismo cálculo; buscando aproximarse al consumo cero; con dichas tarifas.
+o	PPA: esa tarifa es fija y suele ser económica. No obstante, el uso de las baterías para excedentes, el peak shaving y el back up de cargas críticas siguen siendo unas ventajas muy considerables.
+
+
+-	¿Se pueden comprar por separado los inversores de las batería ó vicevesa?
+o	Nosotros no separamos nuestra solución, el sistema es All-in-One precisamente por eso.
+
+-	¿Alguna vez habéis vendido un proyecto enfocado más en el Peak Shaving que en el ahorro vía acumulación con IA?
+o	Sin entrar en detalles, podemos decir que hay azulejeras que han escogido nuestra solución poniendo el foco en el Peak Shaving.
+
+-	¿Qué comisión puedo poner como distribuidor ó instalador?
+o	Lo habitual es un 5-10% sobre el precio de producto.
+o	La instalación corre de cuenta del instalador.
+
+-	Si 50kW se me queda corto pero 100kW se me queda grande, ¿podemos modular en medio?
+o	Tenemos 50kW AC para modular en ese escalón.
+o	Puede hacerse con “micros”.
+o	Puede hacerse con un inversor ongrid ex profeso.
+
+-	¿Cuántos ciclos tienen vuestras baterías?
+o	Normalmente contamos con 10.000 ciclos.
+o	Los primeros 6.000 son lo más óptimos.
+o	Los restantes 4.000 son menos eficaces.
+
+-	¿Se puede conectar un generador externo a vuestros inversores?
+o	Se pueden conectar empleando la entrada genport.
+o	En todos los casos, el generador habrá de contar con un relé de encendido automático.
+
+-	¿Cuánto más caro es un SBI de 50kW-50kWh de un SBR de 20kW-50kWh?
+o	El SBR con esa configuración está, sin portes, IVA ni instalación, sobre los 21.000,00€
+o	El SBI más pequeño, el de 50kW-50kWh está, sin portes, IVA ni instalación, sobre los 27.500,00€.
+
+-	¿Puede entrar, vía genport, más potencia que la potencia nominal del inversor?
+o	No, no puede entrar vía genport más potencia que la nominal del inversor.
+
+-	¿Cómo funcionan vuestro sistema con vertido cero?
+o	Al conocer de forma práctica y no teórica la curva de carga de consumo y la curva de producción solar, nos adelantamos al vertido cero cargando las baterías justo antes de que el sistema lo inicie.
+
+-	Pero, ¿vosotros vendéis plantas fotovoltaícas también?
+o	No, nosotros vendemos una solución  inteligente para la acumulación y gestión de la energía; tanto solar como de otras fuentes; el SBI.
+
+-	En vuestros precios, ¿qué se incluye?
+
+-	Nuestros precios incluyen:
+o	El material propio del SunBox (armarios, inversores, baterías, protecciones, sistema de conmutación, pre-configuración y cableado de los componentes)
+o	10 años de garantía del producto
+o	Apoyo, formación y acompañamiento en la instalación
+o	Uso de la APP Turbo Energy
+
+-	Estos precios NO incluyen:
+o	IVA
+o	Portes (material a la salida de nuestra fábrica)
+o	Cables de conexión entre inversores y baterías (tanto potencia como comunicación)
+o	Cableado de inter-conexionado con la red principal y sus protecciones adicionales
+o	Paneles fotovoltaicos, estructuras ni cableado propio de la instalación de generación fotovoltaica
+o	Meter externo para distancias de más de 20 metros a punto de lectura de red
+o	Montaje in situ
+
+-	Si sois una solución All-in-One y Plug&Play, ¿por qué no están incluido el cableado de conexión entre inversores y baterías?
+o	Para configuraciones de pocos metros lineales, dichos cables no se cobrarán aparte.
+o	Para configuraciones más grandes y/ó largas, se habrá de calcular dicho cableado y se añadirá al precio ofertado.
+
+-	Si tengo una batería antigua y quiero una nueva instalación FV, ¿es posible?
+o	La batería antigua debe estar en correcto funcionamiento para evitar inestabilidades.
+o	Es preferible que la batería sea lo más cercana en el tiempo a la planta FV a instalar para evitar inestabilidades.
+
+-	Con Vertido Cero, ¿cómo funciona el SBI para no perder el excedente?
+o	Los inversores híbridos del SBI se programan para tener activado el Zero Export y para mantener de forma constante un consumo de 20W que sirve de colchón permanente, de forma que cuando el meter ó el CT detectan que se acerca el Vertido Cero y dan orden de acumular el excedente en las baterías, esto se ejecuta sin posibilidad de perder energía por llegar tarde; gracias al colchón permanente de 20W.
+
+-	¿Cuándo es meter y cuándo es CT?
+o	Si el SBI está a más de 20 ml. del cuadro general, será el meter.
+o	Si el SBI está a menos de 20 ml. del cuadro general, será el CT.
+
+-	¿Es seguro, por razones de seguridad y riesgo de incendio, instalar de forma lineal un SBI si éste está situado pared con pared con un grupo electrógeno?
+o	Si se instala conforme a la separación establecida en el manual no habría problema.
+
+-	Un SBI instalado en un nave industrial que está a pleno sol y localizada en una zona geográfica muy calurosa, ¿puede tener problemas por el calor que se llegará a alcanzar dentro de dicha nave?
+o	Conforme a las recomendaciones del manual si no le da la luz del sol directamente no debería haber problema.
+
+-	¿Tenéis archivos OND de los inversores híbridos de nuestro SBI para poder aportarlos a vuestros clientes?
+o	Los tenemos y sólo has de solicitárnoslos.
+
+-	¿Cómo se comunica el inversor externo con la solución de batería, vía Modbus RS485, vía Can Bus?
+o	No se comunican pero no es necesario ya que nuestra solución agrupa todas las lecturas en nuestra aplicación de gestión.
+
+-	¿Qué ocurre si en la instalación existente no hay un sistema de inyección 0?
+o	No hay problema nuestro sistema incluye lo necesario para vertido 0.
+
+-	¿Habéis realizado instalaciones con sistemas de inyección 0 de Renesys o la solución que tiene certificada Sungrow de utilizar un meter de Janitza + COM100E?
+o	Las instalaciones que realizamos son con nuestros equipos certificados para inyeccion 0.
+
+-	Vuestra solución funciona como una solución grid forming y que se puede trabajar con el inverso híbrido de la solución y las baterías sin problemas, ¿es así?
+o	Nuestra solución puede trabajar tanto on grid como autoconsumo aomo aislada.
+
+-	¿El estudio de cargas a conectar a la salida conmutable lo hacéis también vosotros?
+o	El estudio para conectar cargas críticas en caso de fallo de red lo haremos nosotros y lo ejecutará el instalador en consonancia con el cliente final.
+
+-	¿ Cual es la retención de capacidad útil de vuestras baterías?
+o	La retención de capacidad útil de nuestras baterías es mayor al 70% estándar, está sobre el 90%.
+o	A esto ayuda que nuestras baterías; al contrario que la mayoría del mercado, que son 0,5C; sean 1C.
+
+-	¿Es posible alcanzar el 100% de autoconsumo?
+o	En la práctica no; siempre hay un 20-25% que debe extraerse de otras fuentes.
+o	Esto se debe a que; de las horas de producción solar que hay en un año; hay días de producción reducida ó cercana a cero por las condiciones meteorológicas locales.
+
+-	¿Hay que instalar un meters de Eastron por cada inversor instalado para garantizar el cumplimiento del certificado?
+o	Cada uno de los inversores cuentan con un analizador de potencia, pero al conectarlos en paralelo uno hace de inversor maestro que controla a todos los demás por lo que con un meter sería suficiente y estaría cumpliendo los requisitos del certificado.
+
+-	Una instalación de 500kW entraría en el Tipo B y el Certificado de vuestro inversor es del Tipo A, ¿cómo se podría llevar a cabo esa instalación?
+o	Nuestro inversor está certificado el equipo como tipo A porque se certifica según potencia de unidad de inversor ( 50 kW ).
+o	Una instalación de 500kW entra en el tipo B pero en realidad es la unión de 10 equipos de tipo A.
+o	Se podría llevar a cabo sin problema una instalación de 500kW.
+
+-	Cuando la red se cae, ¿el cambia solo a modo aislada para alimentar la instalación dejando intactas las cargas críticas y empleando la energía FV de la planta existente?
+o	Si, el SBI si podría; cuando caiga la red; trabajar en aislada con la producción solar y también con el backup de las baterías.
+
+-	¿El software dentro del inversor es español o es Deye?
+o	Cada inversor tiene nuestro propio firmware desarrollado por nosotros.
+o	Nuestro propio firmware sin opción de enviarlo al inversor Deye.
+
+-	Vuestro SMART MODE actual funciona con datos españoles. ¿Es posible decir cuándo y en qué condiciones el modo inteligente podría ser aplicable para otros países para diferenciarnos de otros proveedores?
+o	En breve podremos cambiar los parámetros del coste de la electricidad dependiendo del país, pero ahora puedes elegir una opción del coste estándar de la electricidad durante todo el día.
+o	Si se tiene información sobre el coste de la electricidad se puede actualizar el ahorro, pero si el coste es siempre el mismo, esta diferencia se dará con otras opciones.
+o	Nuestro software cuenta con varios modos de funcionamiento del inversor para conseguir el máximo ahorro posible.
+o	General Mode (GM): La IA establece en cada momento la configuración más eficiente para consumir el mínimo de energía de red.
+o	Back-up Mode (BU): No se descargan las baterías bajo ningún concepto, este modo está pensado para que las baterías estén disponibles para aquellos períodos en los que la energía es más cara con el objetivo de no consumir de red.
+o	Además, con nuestro sistema de Grid Peak Shaving el cliente se asegura de no consumir de red más del límite establecido.
+
+-	¿Hay acceso remoto a los ajustes del inversor tanto a nivel de servicio; para los representantes de Turbo Energy en el extranjero como a nivel de instalador para eliminar al máximo los desplazamientos?
+o	Podemos operar nuestro sistema por internet con todas las opciones, pero para hacerlo es necesario hacer una formación con nosotros a tal efecto.
+o	 También se puede organizar una reunión con nuestros equipo SAT y podemos cambiar todos los parámetros en remoto: actualizar el inversor y supervisar todo el sistema.
+
+-	¿El ratio 1,3 entre kWp y kW se ha de respetar siempre en acumulación?
+o	Sí, en acumulación para tener una estabilidad óptima que permita aprovechar al máximo los excedentes, la relación entre kWp y kW debe ser 1,3.
+
+-	¿Vuestras baterías tiene el DOD estándar del 70%?
+o	No, nuestro DOD es del 90%, dejando únicamente de remanente en la batería el 10% restante.
+
+-	¿Cuál es la configuración que os hace más rentables como solución integral?
+o	La máxima rentabilidad se consigue cuando el cliente final tiene unos altos precios de coste de red.
+o	Por eso, en volatilidad de precios, las baterías disparan su rentabilidad y reducen su Payback.
+
+-	¿Cuántos ciclos le dais a la batería por día?
+o	En picos de precio de más de 200,00€/MW, lo ideal es hacer tres ciclos/día.
+o	Usualmente, damos dos ciclos/día:
+	Uno para excedentes
+	Otro para trading
+
+-	¿Cuál es el Paybak normal de un SBI?
+o	Se busca no superar el umbral de Payback estándar industrial de los 5 años.
+
+
+-	¿Cuál es la ineficacia de vuestro inversor en el antivertido?
+o	Usualmente, los inversores Ongrid tiene una ineficacia del 4-8% en el antivertido.
+o	Nosotros, gracias a las baterías, mantenemos esa ineficacia en el 1%.
+
+-	Para dar potencia adicional a una instalación, ¿necesitáis meter un Centro de Transformación ( CT )?
+o	No, no lo necesitamos.
+o	Por eso, esos largos plazos y costes de un CT no son necesarios con nuestra solución.
+
+-	¿Se puede alcanzar 60-70-80kW con un SBI?
+o	Se puede instalar un inversor trifásico 10kW en paralelo con la red a través del Genport, el cual se sumaría al coste.
+
+-	¿Se puede alcanzar 60-70-80kWh con un SBI?
+o	No, no se pueden mezclar dos sistemas independientes con almacenamiento.
+
+-	¿Vuestra Certificación de Inyección Cero ( UNE217001 ) es por equipo individual ó por la configuración completa instalada?
+o	Al trabajar en paralelo, tenemos un meter para toda la configuración instalada y está en trámite la obtención de un Certificado específico para ello.
+
+-	Vuestros inversores se certifican como Tipo A al ser de 50kW, sin embargo para configuraciones con potencias superiores y hasta el máximo de 500kW, ¿es obligatorio la certificación como Tipo B?
+o	Al trabajar en paralelo, nuestras instalaciones ya en funcionamiento no han tenido ningún problema con la certificación Tipo A.
+
+-	Con baterías PylonTech, ¿podéis tener más de 50kW de potencia?
+o	Con baterías PylonTech podemos tener 50kW de potencia híbrida y 50kW Ongrid por la entrada Gen-Port; más potencia crea inestabilidades.
+
+-	Con baterías 2.4kWh, ¿cuántas podéis poner en paralelo?
+o	Un máximo de 15 baterías.
+
+-	Si se va la conexión WiFi, ¿como funciona la IA si ya no está conectada al pull de precios de mercado de la tarifa contratada ni al forecasting meteorológico?
+o	La IA retendrá y usará los últimos valores hasta que la conexión WiFi vuelva y se actualice.
+
+-	Si necesito tener más potencia ongrid que la potencia del SBI, ¿cómo puede hacerse?
+o	En lugar de utilizar la entrada Gen-Port, el SBI se conectará en paralelo en alterna al embarrado. Así que la planta FV tenga más potencia que el SBI no será un problema.
+
+-	¿Qué ocurre con el vertido cero si una planta FV está conectada a un SBI por el Gen-Port?
+o	Que al estar conectada por el Gen-Port se pierde.
+-	¿La vida útil de un inversor híbrido es mayor ó menor que la de un inversor ongrid?
+o	Las vidas útiles de un inversor híbrido y de un inversor ongrid son muy parejas, entre 5 – 7 años de garantía estándar por el fabricante
+o	En instalaciones en aislada, los inversores ( todos ) sufren más estrés y reducen su vida útil
+
+-	¿Cuántos milisegundos de respuesta en conmutación tiene vuestra solución?
+o	0.04 milisegundos para pasar a BackUp.
+o	Toda conmutación pasa primero por Cero antes de cambiar definitivamente de estado.
+
+-	Si tengo una Planta FV de menos de 100kWp, ¿tengo Vertido Cero?
+o	No, las plantas de menos de 100kWp compensan
+
+-	Para una Planta FV de menos de 100kWp, ¿cómo se conecta un SBI?
+o	Puede conectarse tanto por el Gen-Port como en paralelo en alterna al embarrado.
+
+-	Si tengo una Planta FV de más de 100kWp, ¿tengo Vertido Cero?
+o	Sí, usted tiene Vertido Cero a menos que antes de que se active lo Acumule.
+
+-	Si tengo una Planta FV de más de 100kWp con Vertido Cero, ¿cómo funciona su Acumulación?
+o	Lo hacemos con sólo un 1% de pérdida, gracias a las baterías que nos sirven de colchón.
+o	Instalamos un meter para controlar la producción y antes de que se active el Vertido Cero, acumulamos los excedentes.
+
+-	Para una Planta FV de más de 100kWp, ¿cómo se conecta un SBI?
+o	Se conecta en paralelo en alterna al embarrado.
+
+-	Para un retrofit, ¿hace falta una nueva Certificación de la Planta FV?
+o	Al no haber modificación de la Planta FV certificada, no hace falta.
+
+-	Para un repowering, ¿hace falta una nueva Certificación de la Planta FV?
+o	Al haber una ampliación de la Planta FV, sí hace falta.
+
+-	Para torres de telecomunicaciones, ¿cuánta potencia  y acumulación es suficiente?
+o	Potencia: unos 10kW suele ser suficiente.
+o	Acumulación: unos 30-40kWh es lo óptimo.
+
+-	Si quiere instalar un SBI en Centroamérica, ¿es posible?
+o	En aislada: no hay problema, ya sea monofásico ó trifásico.
+o	Téngase en cuenta que el cableado habrá de ser ad hoc por los Voltios locales, ocupando mucho espacio.
+o	Téngase en cuenta que, por los Voltios locales, el conmutador nunca va a funcionar en un SBI conectado a red sin un desarrollo ad hoc.
+o	Se habría de meter un CT tras el SBI para transformar ahí los Voltios; a menos que se haga un desarrollo ad hoc.
+
+-	¿Qué pasa en un proyecto de RETROFIT O REPOWERING con el parque FV existente si se cae la red? La energía FV del parque 1 puede aprovecharse o se corta por la característica del inversor ongrid?
+
+•	Si está conectado en paralelo con la red, al desconectarse ésta se perdería la producción.
+•	Gracias a nuestro BackUp se podrían conectar algunas cargas críticas para en caso de corte de red poder seguir suministrando energía.
+
+-	¿Qué degradación tienen las baterías cuando trabajan a 1C?
+
+•	La vida útil de las baterías trabajando constantemente a 1C sería de en torno a unos 4.500-5.000 ciclos.
+
+-	¿Pueden las baterías cambiar automáticamente de 0,5C a 1C de forma automática cuando requieran de más potencia de Carga/Descarga o se debe configurar manualmente?
+
+•	La configuración viene predeterminada para descargar como máximo a una corriente de 1C en función de la potencia que se le requiera.
+•	En caso de que se quiera trabajar constantemente a 0,5C habría que limitar la corriente de descarga en la configuración.
+
+-	Con un SBI, ¿puedo sumar a la potencia del inversor híbrido del SBI la potencia de la red ó de un generador anexo para dar mayor potencia a mis cargas?
+Posibilidades de conexión SBI:
+•	Estando conectados a Red
+o	La máxima potencia posible por Gen-Port: 50 kW inversor + 50 kW, ya sea vía inversor ongrid externo, generador, grupo electrógeno ó similar.
+•	Estando trabajando en Aislada
+o	Se podría incluir; añadiendo el coste; por cada módulo de 50 kW las protecciones para el Gen-Port para añadir 50kW de potencia a las cargas vía entrada Gen-Port
+o	Habría que estudiar la viabilidad en cada caso.
+
+-	¿Tienen los SunBox Industry protección de sobretensiones de continua?
+o	Los SBI tiene protección de sobretensiones de continua.
+
+-	¿La protección de sobretensiones de continua de los SBI es interna ó externa?
+o	Para mayor comodidad y eficiencia, la protección es externa.
+
+-	¿ Tienen los SunBox Industry protección de sobretensiones de alterna?
+o	Sí, las lleva el inversor incorporadas.
+
+
+-	¿En qué os diferenciáis de las baterías refrigeradas de otros competidores?
+o	Salvo cuando las temperaturas bajan de Cero Grados ó suben de 50 Grados, en cuyo caso habría que instalar el SBI en una habitación climatizada.
+o	Las baterías refrigeradas por líquido consiguen reducir el estrés de las baterías y prolongan un 10-15% la vida de las mismas; aunque su coste es superior y no siempre es rentable.
+
+-	Los ciclos de vuestras baterías, ¿cuál es su reparto?
+o	Utilizamos un ciclo para el uso de excedentes.
+o	Utilizamos otro ciclo para generar ahorros haciendo trading: “comprar en valle de precios y consumir en pico de precios” y aprovechamos este mismo ciclo para rebajar los excesos de potencia, generando también ahorros por Peak Shaving.
+
+-	¿Podéis funcionar en Media ó Alta Tensión?
+o	Actualmente ( 1Q24 ) no es posible por un problema de medición, dado que en Media ó Alta Tensión no podemos medir cuando debemos cargar ó descargar las baterías.
+o	Para 4Q24 se estima que tendremos Producto de escala Utility que sí podrá hacerlo.
+
+-	¿Un SBI puede trabajar sin planta FV ni producción FV?
+o	Sí, puede funcionar pero al emplear energía de la red la rentabilidad y amortización del SBI se resiente porque la energía de la red es mucha más cara que la FV y los ahorros generados serán menores.
+
+-	¿Cómo se rentabilizan baterías, ya no son caras?
+o	Las baterías no son caras, son rentables porque es el cimiento sobre el que descansa todas las alternativas de consumo y gestión, buscando siempre la reducción máxima del coste sin perder capacidad de carga.
+o	Las baterías no solo acumulan el excedente solar, es que pueden cargarse de la red ó por el genport mientras se autoconsume, decidiendo en cada caso el menor coste sin olvidar el back up para cargas críticas ni mantener el peak shaving, evitando sobrepagos.
+
+-	¿Cuántas baterías puedo ponerme?:
+o	hasta un máximo de 8MWh de acumulación a fecha de hoy.
+o	No obstante, se ha analizar cada caso para encontrar la configuración más óptima para cada curva de carga y cada curva de producción. No siempre más baterías es la opción más rentable.
+
+-	¿Qué valor diferencial aporta poner baterías a lo que tengo?
+o	aprovechas el excedente, acumulándolo, evitas el peak shaving evitando pagar sobreprecios por exceder la potencia contratada, mantienes las cargas críticas siempre seguras con el back up de las baterías y siempre consumirás en valle de precios del mercado.
+
+-	¿Porque la tuya y no la de la competencia?
+o	Nuestras ventajas competitivas son muchas; desde la instalación All in One y Plug & Play que es más rápida, más segura y evita errores, hasta la IA que optimiza el consumo y la gestión de la energía para comprar siempre en valle de precios y consumir en los picos, pasando por el peak shaving que evita exceder la potencia contratada y, en muchas ocasiones, consiguiendo bajarla.
+o	Además de todo lo anterior, es perfecta para trabajar en aislada porque el genport se suma a toda la gestión energética de forma que aunque no se puede tradear con los precios, se puede jugar con diferentes forma de producción y gestionarlas sin conexión a la red.
+
+-	¿Por qué ponerme baterías?
+o	porque estás perdiendo pasta en forma de facturas de luz que podrían reducirse significativamente con una inversión de alto TIR que se paga a sí misma.
+
+-	En un PPA ó comunidad energética: ¿sirven vuestras baterías?
+o	Co-existimos con el PPA aunque el trading no sirve aquí, porque ocurre como al trabajar en aislada, el resto de beneficios están presentes además de sumar la posibilidad de negociar el Peak Shaving, que en el caso de una PPA es un vector de sobrepagos.
+
+-	¿Qué diferencia tenéis con la virtual?
+o	La energía consumida mediante batería virtual es más cara que la consumida con baterías físicas en propiedad, además de que dicho consumo ha de hacerse dentro de un plazo menor, dado que caduca antes.
+
+-	¿El SunBox Industry puede trabajar en isla en AC Coupling?
+o	El SunBox Industry está preparado para trabajar en isla en AC Coupling.
+
+
+-	IA, ¿para que sirve?
+o	Para escoger la opción más cercana al coste cero en cada momento teniendo en cuenta el precio de la red en tiempo real, la producción solar y lo almacenado
+o	Cotejamos con la curva de carga para saber lo que se gasta en cada momento y se elige la opción más barata pero que cubra con holgura la carga que se necesita sin descuidar el back up de cargas críticas
+o	Combinando en tiempo real el tiempo, la meteorología para saber producción solar y lo relacionamos con la curva de carga real.
+
+-	¿Porque comprar nuestro SBI respecto a otras soluciones de inversores + baterías?
+
+o	Nuestras ventajas competitivas:
+	Instalación All in One y Plug & Play que es más rápida, más segura y evita errores de instalación y vicios del instalador
+	IA que optimiza el consumo y la gestión de la energía para comprar siempre en valle de precios y consumir en los picos
+	Peak Shaving que evita exceder la potencia contratada y, en muchas ocasiones, consiguiendo bajarla
+	La movilidad y flexibilidad que aporta la App mobile frente a la estaticidad del modo único en PC.
+	Back Up para cargas críticas, que puede estar en automático ó puede modularse a las necesidades del cliente desde la App móvil
+	Además de todo lo anterior, es perfecta para trabajar en aislada porque el genport se suma a toda la gestión energética de forma que aunque no se puede tradear con los precios, se puede jugar con diferentes forma de producción y gestionarlas sin conexión a la red.
+
+-	¿Son compatibles nuestros equipos con una pre-instalación ongrid?
+o	Somos 100% compatibles
+o	Conectando por el genport: carga, nulo y toma de tierra
+
+-	Para plantas FV creadas ó amparadas por el RD661, ¿es viable instalarles baterías para que almacenen el excedente y poder así rentabilizarlo a posteriori?
+o	Técnicamente es posible. Legalmente no es viable a día de hoy.
+
+-	¿Como se soluciona la conexión si tenemos un proyecto en MT y queremos estudiar un retrofit?
+o	Nos conectamos de dos formas:
+	Vía entrada genport
+	Nos conectamos en paralelo en alterna al embarrado
+
+-	¿Cómo se integran los sistemas de monitorización en los modelos retrofit y repowering?
+o	A día de hoy, no se integran porque el software no lo permite; es un proyecto a futuro
+
+-	¿Cómo gestiona el SBI en los modelos retrofit y repowering la interacción con un sistema antivertido existente?
+o	Si nos conectamos a la entrada genport, perdemos el sistema antivertido existente
+
+-	¿La potencia nominal máxima que se puede poner en una configuración de Sunbox es de 500 kW?, ¿se podría colocar más potencia nominal ó lo máximo son 500 kW?
+o	El máximo en paralelo son 10 inversores híbridos de 50kW, no nos sentimos cómodos con un número mayor de inversores híbridos.
+
+-	Sustituir un site / UPS con nuestro sistema, ¿es posible, especialmente en oficinas?
+o	Hay un paso por cero; un segundo de corte; por lo que los PCs se apagan pese a tener activo el Back Up
+

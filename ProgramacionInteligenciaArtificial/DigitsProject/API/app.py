@@ -17,8 +17,13 @@ CORS(app)
 
 launch_time = time.time_ns()
 
-path = pathlib.Path(__file__).parent.resolve()
-model = tf.keras.models.load_model(path / '../Model/digit_model.h5')
+model = None
+try:
+    path = pathlib.Path(__file__).parent.resolve()
+    model = tf.keras.models.load_model(path / '../Model/digit_model.h5')
+except Exception as e:
+    print(f"Failed to load the model: {e}")
+    exit(1)
 
 
 @app.route('/')

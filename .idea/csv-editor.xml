@@ -129,6 +129,34 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit03\Exercise21\mario.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit03\Exercise23\wine.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit04\Exercise21\mario.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise02\tiempos_red_neuronal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise20\mario.csv">
           <value>
             <Attribute>

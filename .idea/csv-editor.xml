@@ -157,6 +157,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Exam\datos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise20\mario.csv">
           <value>
             <Attribute>

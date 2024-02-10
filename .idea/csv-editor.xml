@@ -129,14 +129,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit03\Exercise21\mario.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit03\Exercise23\wine.csv">
+        <entry key="\ProgramacionInteligenciaArtificial\Exam-1semester\datos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -144,6 +137,20 @@
           </value>
         </entry>
         <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit04\Exercise21\mario.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise01\Exercise01A\iris.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise01\Exercise01A\iris_indexed.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

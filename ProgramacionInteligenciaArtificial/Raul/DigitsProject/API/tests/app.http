@@ -1,0 +1,26 @@
+### GET request with parameter
+GET http://localhost:5000/hc
+Accept: application/json
+
+
+### Predict my hand-drwan digit
+POST http://localhost:5000/predict
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="digit"; filename="sampleFile.png"
+Content-Type: image/png
+
+< ./myDigits/6.png
+--WebAppBoundary--
+
+### Predict dataset digit
+POST http://localhost:5000/predict
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="digit"; filename="sampleFile.png"
+Content-Type: image/png
+
+< ./datasetDigits/7.png
+--WebAppBoundary--

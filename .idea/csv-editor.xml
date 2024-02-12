@@ -129,48 +129,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\Exam-1semester\datos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit04\Exercise21\mario.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise01\Exercise01A\iris.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise01\Exercise01A\iris_indexed.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\ExamPractice\Unit05\Exercise02\tiempos_red_neuronal.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\Exam\datos.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise20\mario.csv">
           <value>
             <Attribute>
@@ -179,13 +137,6 @@
           </value>
         </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise23\wine.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit06-NeuralNetworks\lung_cancer\survey_lung_cancer.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -214,6 +165,13 @@
           </value>
         </entry>
         <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityGlue\movies.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Houses\Project\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

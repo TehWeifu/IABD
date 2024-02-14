@@ -136,6 +136,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ModelosInteligenciaArtificial\Unit03-NLP\Challenge04\tweets.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise20\mario.csv">
           <value>
             <Attribute>
@@ -164,14 +171,7 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityGlue02\Bikers_Dup.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityGlue\movies.csv">
+        <entry key="\SistemasBigData\Luis\Unit07-Glule\ActivityGlue\movies.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -179,27 +179,6 @@
           </value>
         </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Houses\Project\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\old\primera-mitad\1-descarga-datos\2021-08-11-2021-08-12-2021-08-19-tweets-data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\old\primera-mitad\1-descarga-datos\2021-08-11-handles-data.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\Project\primer-ejercicio\data\house-price-data.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

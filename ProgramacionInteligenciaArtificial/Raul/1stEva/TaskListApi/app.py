@@ -10,8 +10,8 @@ import csv
 app = Flask(__name__)
 launch_time = time.time_ns()
 
-if not os.path.exists('./tasks.csv'):
-    open('./tasks.csv', 'w')
+if not os.path.exists('tasks.csv'):
+    open('tasks.csv', 'w')
 
 
 # Listar todas las tareas
@@ -19,7 +19,7 @@ if not os.path.exists('./tasks.csv'):
 def get_tasks():
     task_id = request.args.get("task", "")
 
-    file = open('./tasks.csv', newline='')
+    file = open('tasks.csv', newline='')
     csvreader = csv.reader(file)
 
     rows = []

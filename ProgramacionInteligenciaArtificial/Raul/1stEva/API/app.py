@@ -39,5 +39,5 @@ def animal_guesser():
 def upload_image():
     my_file = request.files['file']
     filename = 'saved_' + secure_filename(my_file.filename)
-    my_file.save(os.path.join('.', filename))
+    my_file.save(os.path.join('', filename))
     return f"Image {filename} saved successfully"

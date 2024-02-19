@@ -129,14 +129,14 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Tests\SparseCategoricalCrossEntropy\datos.csv">
+        <entry key="\ModelosInteligenciaArtificial\Unit03-NLP\Challenge04\tweets.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\ModelosInteligenciaArtificial\Unit03-NLP\Challenge04\tweets.csv">
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Tests\SparseCategoricalCrossEntropy\datos.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
@@ -151,13 +151,6 @@
           </value>
         </entry>
         <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit03-Numpy\Exercises\Exercise23\wine.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
-        <entry key="\ProgramacionInteligenciaArtificial\Raul\TaskListApi\tasks.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

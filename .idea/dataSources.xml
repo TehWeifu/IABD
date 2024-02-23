@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="AWS practice" uuid="57610e10-7bcb-4965-b088-12feb32a708c">
+    <data-source source="LOCAL" name="VM-Database" uuid="f714b09f-3bc3-4f73-951c-4394fd75e903">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://database-practice.cp1jqbuioubb.us-east-1.rds.amazonaws.com:3306</jdbc-url>
+      <jdbc-url>jdbc:mysql://192.168.56.102:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="RDS-Luis" uuid="0c7d9351-84ee-4746-8dc1-8038733cb123">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://bdproyecto.cjcy0kqsghjs.us-east-1.rds.amazonaws.com:3306/jbsl_ProjectSchool</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

@@ -1,0 +1,47 @@
+Tweets
+    - Timezone: gives warning when loading the dataset, useless because all the same
+    - place: very few entries, data doesn't seem relevant, useless
+    - Created_at: timestamp of the tweet, not useful because we also have the datetime
+    - cashtags: most null values, don't know what it means, useless
+    - user_id, user_id_str, username, name: all the same, choose one to join the other entity
+    - day, hour: already in the datetime, BUT IMPORTANT
+    - link: not relevant, useless
+    - search: only null values, useless
+    - near: only null values, useless
+    - geo: only null values, useless
+    - source: only null values, useless
+    - translate: only null values, useless
+    - trans_src: only null values, useless
+    - trans_dest: only null values, useless
+
+
+TODO:
+    - Tweet: content, can be useful for NLP but otherwise...?
+    
+Retweets
+    - Could be an interesting variable, but not sure if legit to use it
+    - If a retweet is made almost instantly, it could mean a collab
+
+Target
+    - 1 person takes 1 hour to write an article. Can't be much more because you will lose the trend.
+    - 1 person writes 40 articles in a week, the dataset time range.
+    - The company has 50? employees, so 2000 articles in a week. Copium.
+    - The target should be consistent in the quantile that leaves us with more than 2000 articles in a week.
+
+Id vs conversation id
+    - They are replies, interation is the half of original tweets. delete them?
+    - Maybe make 2 models and compare them
+
+language
+    - Most of the tweets are in english
+    - Non-english tweets have overall more interactions
+    - Other languages are very little represented
+    - Korean tweets are giga-inflated. Los chichos >>>>>> BTS
+
+Quote_url:
+    - Tells if the tweet is a quote of another tweet
+    - Quotes tweets have slightly more interactions
+    - Probably not worth it considered how little represented they are
+
+Media:
+    - Tweets with some kind of media, either photos, videos o urls, have more interactions

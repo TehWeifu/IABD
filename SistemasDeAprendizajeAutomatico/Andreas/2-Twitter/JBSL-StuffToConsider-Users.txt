@@ -1,0 +1,17 @@
+Tweets
+    - id, name, username: keep one to join with tweets, otherwise useless
+    - bio: probably hard to get anything useful from this, useless
+    - join_datetime, join_date, join_time: keep one of them
+    - url: useless
+    - location: useless
+    - followers: IMPORTANT
+    - tweets, following, likes, media: might hint how active the user is but seems kinda useless
+    - private: useless
+    - verified: maybe give it a try but seems useless
+    - avatar: useless
+    - background_image: useless
+
+
+TODO:
+    - It seems to be a few rows with extra long id and no other data. Why? Deleted accounts?
+    - Number of tweets since the time joined? Less tweets = more important? Interaction / tweet ratio?

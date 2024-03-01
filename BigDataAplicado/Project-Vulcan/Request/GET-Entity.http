@@ -1,0 +1,6 @@
+### Send GET to fetch all entities
+GET {{host}}:1026/v2/entities
+
+
+### Send GET to fetch all entities
+GET {{host}}:1026/v2/entities/buoy_vicario_01

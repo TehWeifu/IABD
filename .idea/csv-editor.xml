@@ -178,13 +178,6 @@
             </Attribute>
           </value>
         </entry>
-        <entry key="\SistemasBigData\Ricardo\Unit06-SparkSql\Exercises\facturas.csv">
-          <value>
-            <Attribute>
-              <option name="separator" value="," />
-            </Attribute>
-          </value>
-        </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\2-Twitter\data\tweets.csv">
           <value>
             <Attribute>

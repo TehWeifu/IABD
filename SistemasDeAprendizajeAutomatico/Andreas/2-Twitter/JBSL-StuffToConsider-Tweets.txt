@@ -17,6 +17,10 @@ Tweets
 
 TODO:
     - Tweet: content, can be useful for NLP but otherwise...?
+    - Should we consider the tweets written during weekends? Ppl usually don't work on weekends...
+    - Let's say the model gives you certian tweets with their probability to be popular, so a journalist can pick the tweet easier.
+        - The risk of missing a viral tweet is higher than the risk of picking a non-viral tweet (just some money lost for the wage of the journalist)
+        - My threshhold is going to be realitiably low, why? so there can be a wider pool to chose from. I want to be a bit permissive so i lower the threshold
     
 Retweets
     - Could be an interesting variable, but not sure if legit to use it

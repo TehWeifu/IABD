@@ -178,6 +178,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Andreas\1-Houses\data\house-price-data.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\2-Twitter\data\tweets.csv">
           <value>
             <Attribute>

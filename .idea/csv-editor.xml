@@ -178,6 +178,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\SistemasBigData\Luis\Unit08-Kinesis\Flink_Kinesis_Data_Analytics\data\yellow_tripdata_2020-01.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\1-Houses\data\house-price-data.csv">
           <value>
             <Attribute>

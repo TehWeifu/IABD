@@ -1,10 +1,10 @@
 ### Send POST request with json body
-POST {{host}}:1026/v2/entities
+POST {{orion}}/v2/entities
 Content-Type: application/json
 
 {
-  "id": "buoy_vicario_01",
-  "type": "buoy",
+  "id": "jbsl_buoy_vicario_01",
+  "type": "CalidadAgua",
   "location": {
     "value": {
       "type": "Point",

@@ -10,6 +10,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Project-School\Resources\Calificaciones.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\BigDataAplicado\Project-School\Resources\Cursos.csv">
           <value>
             <Attribute>
@@ -171,6 +178,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit04-Graphs\Exercises\Exercise20\fifa.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\ProgramacionInteligenciaArtificial\Lorenzo\Unit05-Pandas-TODO\Unit05\Exercise02\tiempos_red_neuronal.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityAthena\Ventas_Athena.csv">
           <value>
             <Attribute>
@@ -207,6 +228,13 @@
           </value>
         </entry>
         <entry key="\SistemasDeAprendizajeAutomatico\Andreas\2-Twitter\data\users.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasDeAprendizajeAutomatico\Cesar\1stSem\Unit02-Pandas\Exercises\Exercise02\tiempos_red_neuronal.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

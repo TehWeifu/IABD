@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Project-School\Resources\Indicadores_Finales.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\BigDataAplicado\Unit05-Storage\Practice01\Meses.csv">
           <value>
             <Attribute>

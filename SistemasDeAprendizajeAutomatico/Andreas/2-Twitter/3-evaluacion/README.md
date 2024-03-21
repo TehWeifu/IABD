@@ -122,13 +122,15 @@ test['predictions_1'] = model_1.predict_proba(X_test)
 test['predictions_2'] = model_2.predict_proba(X_test)
 
 results = []
-renames = {0 : 'recall', 1 : 'precision', 2 : 'threshold'}
+renames = {0: 'recall', 1: 'precision', 2: 'threshold'}
 for i in range(1, 6):
-    result = pd.DataFrame(sklearn.metrics.precision_recall_curve(test[target], test[f'predictions_{i}'])).transpose().rename(columns=renames)
+    result = pd.DataFrame(
+        sklearn.metrics.precision_recall_curve(test[target], test[f'predictions_{i}'])).transpose().rename(
+        columns=renames)
     result['prediction_number'] = str(i)
     results.append(result)
-    
-results = pd.concat(results) 
+
+results = pd.concat(results)
 
 results['threshold'] = results.threshold.round(3)
 
@@ -136,12 +138,12 @@ results = results.groupby(['prediction_number', 'threshold']).head(1)
 
 # Esto es simplemente algo que puede que salga mas bonito el gráfico - dependiendo del caso, puede que no sea necesario
 results['recall_diff'] = results.groupby('prediction_number').recall.diff()
-results['precision_diff'] = results.groupby('prediction_number').precision.diff()
+results['precision_diff'] = results.groupby('prediction_number').sample_precision.diff()
 
 c = (results.recall_diff >= 0)
 graph = (
-    pn.ggplot(results[c], pn.aes(x='recall', y='precision', color='prediction_number'))
-    + pn.geom_line(size=1.4)
+        pn.ggplot(results[c], pn.aes(x='recall', y='precision', color='prediction_number'))
+        + pn.geom_line(size=1.4)
 )
 
 graph.draw();

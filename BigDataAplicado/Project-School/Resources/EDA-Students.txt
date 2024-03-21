@@ -1,0 +1,38 @@
+Alumnos:
+    - anyo: useless
+    - fecha_exportacion: useless
+    - NIA: ok
+    - fecha_nac: ok
+    - municipio_nac: ok
+    - municipio_nac_ext: useless (too many different values)
+    - provincia_nac: ok
+    - pais_nac: ok
+    - nacionalidad: ok
+    - tipo_doc: idk
+    - expediente: useless
+    - libro_escolaridad: useless
+    - cod_postal: ok
+    - provincia: ok
+    - municipio: ok
+    - localidad: ok
+    - ampa: useless
+    - seguro: ok
+    - dictamen: useless
+    - fecha_resolucion: useless
+    - informe_psicoped: useless
+    - informado_posib: useless
+    - fecha_matricula: ok
+    - fecha_ingreso_centro: ok
+    - estado_matricula: ok
+    - tipo_matricula: idk
+    - repite: ok (why either 0 or 2?)
+    - num_repeticion: ok
+    - ensenanza: ok (all the same, but looks like needed)
+    - curso: ok
+    - grupo: ok
+    - turno: ok
+    - linea: useless (all the same)
+    - trabaja: idk (why all the same?)
+    - fuera_comunidad: useless (all the same)
+    - matricula_parcial: idk
+    - matricula_condicional: idk

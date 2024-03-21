@@ -31,14 +31,14 @@ Curso;Identificador;Indicador;Periodicidad;Escala;Objetivo;Valor-A;Valor-T1;Valo
 2018/19;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;45   ;43   ;68,67;IPC02.01  ;
 2019/20;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;47,33;54,55;79,23;IPC02.01  ;
 2020/21;IPC02.01  ;Alumnes en tot aprovat/total del grup (T)                                                                            ;Trimestral;100  ;35   ;;48,43;63,35;72,45;IPC02.01  ;
-2021/22;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,42 ;;;;IPC02.08  ;PAA-1B1
-2022/23;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,99 ;;;;IPC02.08  ;PAA-1B1
-2016/17;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;8,19 ;;;;IPC02.08  ;PAA-1B1
-2017/18;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;6,74 ;;;;IPC02.08  ;PAA-1B1
-2018/19;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,58 ;;;;IPC02.08  ;PAA-1B1
-2019/20;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,46 ;;;;IPC02.08  ;PAA-1B1
-2020/21;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,64 ;;;;IPC02.08  ;PAA-1B1
-2021/22;IPC02.09  ;Satisfacció del professor respecte  a l`acció tutorial [global]                                                      ;Anual     ;10   ;7    ;8,38 ;;;;IPC02.09  ;PAA-1B2
+2021/22;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,42 ;;;;IPC02.08  ;
+2022/23;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,99 ;;;;IPC02.08  ;
+2016/17;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;8,19 ;;;;IPC02.08  ;
+2017/18;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;6,74 ;;;;IPC02.08  ;
+2018/19;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,58 ;;;;IPC02.08  ;
+2019/20;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,46 ;;;;IPC02.08  ;
+2020/21;IPC02.08  ;Satisfacció de l`alumnat respecte a l`acció tutorial (16,18)                                                         ;Anual     ;10   ;6    ;7,64 ;;;;IPC02.08  ;
+2021/22;IPC02.09  ;Satisfacció del professor respecte  a l`acció tutorial [global]                                                      ;Anual     ;10   ;7    ;8,38 ;;;;IPC02.09  ;
 2021/22;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;7,72 ;;;;IPC03.01  ;
 2022/23;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;8,16 ;;;;IPC03.01  ;
 2016/17;IPC03.01  ;Satisfacció dels alumnes amb el departament d'orientació[ ver preg orientacion]                                      ;Anual     ;10   ;8    ;8,76 ;;;;IPC03.01  ;
@@ -73,20 +73,20 @@ Curso;Identificador;Indicador;Periodicidad;Escala;Objetivo;Valor-A;Valor-T1;Valo
 2021/22;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;50   ;70,2 ;;;;IPC02.11  ;PAA-1A7
 2022/23;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;55   ;81,2 ;;;;IPC02.11  ;PAA-1A7
 2020/21;PAA-1A7   ;% alumnes semipresencial amb tots els mòduls superats (NE no computen)                                               ;Anual     ;100  ;55   ;77,94;;;;IPC02.11  ;PAA-1A7
-2021/22;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,5  ;;;;IPC02.08  ;PAA-1B1
-2022/23;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,34 ;;;;IPC02.08  ;PAA-1B1
-2016/17;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.08  ;PAA-1B1
-2017/18;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.08  ;PAA-1B1
-2018/19;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,33 ;;;;IPC02.08  ;PAA-1B1
-2019/20;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,18 ;;;;IPC02.08  ;PAA-1B1
-2020/21;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.08  ;PAA-1B1
-2021/22;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,77 ;;;;IPC02.09  ;PAA-1B2
-2022/23;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,84 ;;;;IPC02.09  ;PAA-1B2
-2016/17;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,58 ;;;;IPC02.09  ;PAA-1B2
-2017/18;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,53 ;;;;IPC02.09  ;PAA-1B2
-2018/19;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,49 ;;;;IPC02.09  ;PAA-1B2
-2019/20;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,83 ;;;;IPC02.09  ;PAA-1B2
-2020/21;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.09  ;PAA-1B2
+2021/22;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,5  ;;;;IPC02.02  ;PAA-1B1
+2022/23;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,34 ;;;;IPC02.02  ;PAA-1B1
+2016/17;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.02  ;PAA-1B1
+2017/18;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8    ;;;;IPC02.02  ;PAA-1B1
+2018/19;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,33 ;;;;IPC02.02  ;PAA-1B1
+2019/20;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,18 ;;;;IPC02.02  ;PAA-1B1
+2020/21;PAA-1B1   ;Satisfacció de l'alumnat respecte a l`activitat docent                                                               ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.02  ;PAA-1B1
+2021/22;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,77 ;;;;IPC02.03  ;PAA-1B2
+2022/23;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,84 ;;;;IPC02.03  ;PAA-1B2
+2016/17;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,58 ;;;;IPC02.03  ;PAA-1B2
+2017/18;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,53 ;;;;IPC02.03  ;PAA-1B2
+2018/19;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,49 ;;;;IPC02.03  ;PAA-1B2
+2019/20;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,83 ;;;;IPC02.03  ;PAA-1B2
+2020/21;PAA-1B2   ;Satisfacció del professor respecte a l'activitat docent [global]                                                     ;Anual     ;10   ;8    ;8,66 ;;;;IPC02.03  ;PAA-1B2
 2021/22;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,82 ;;;;IPC04.02  ;PAA-1C1
 2022/23;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,79 ;;;;IPC04.02  ;PAA-1C1
 2016/17;PAA-1C1   ;Satisfacció de l'alumnat amb la FCT                                                                                  ;Anual     ;10   ;8    ;8,6  ;;;;IPC04.02  ;PAA-1C1

@@ -1,5 +1,5 @@
 Alumnos:
-    - anyo: useless
+    - anyo: ok (todo: all the same for now?)
     - fecha_exportacion: useless
     - NIA: ok
     - fecha_nac: ok
@@ -8,7 +8,7 @@ Alumnos:
     - provincia_nac: ok
     - pais_nac: ok
     - nacionalidad: ok
-    - tipo_doc: idk
+    - tipo_doc: useless
     - expediente: useless
     - libro_escolaridad: useless
     - cod_postal: ok
@@ -16,7 +16,7 @@ Alumnos:
     - municipio: ok
     - localidad: ok
     - ampa: useless
-    - seguro: ok
+    - seguro: useless
     - dictamen: useless
     - fecha_resolucion: useless
     - informe_psicoped: useless
@@ -24,15 +24,71 @@ Alumnos:
     - fecha_matricula: ok
     - fecha_ingreso_centro: ok
     - estado_matricula: ok
-    - tipo_matricula: idk
-    - repite: ok (why either 0 or 2?)
-    - num_repeticion: ok
-    - ensenanza: ok (all the same, but looks like needed)
+    - tipo_matricula: useless
+    - repite: useless
+    - num_repeticion: useless
+    - ensenanza: useless
     - curso: ok
     - grupo: ok
     - turno: ok
     - linea: useless (all the same)
-    - trabaja: idk (why all the same?)
+    - trabaja: useless (all the same)
     - fuera_comunidad: useless (all the same)
-    - matricula_parcial: idk
-    - matricula_condicional: idk
+    - matricula_parcial: useless
+    - matricula_condicional: useless
+
+Calificaciones:
+    - anyo: ok
+    - fecha_exportacion: useless
+    - evaluacion: ok (todo: keep 01|02|FI|EX)
+    - alumno: ok
+    - ensenanza: useless (all the same)
+    - curso: ok
+    - contenido: (todo: modulos)
+    - bloque_contenido: useless (all empty)
+    - nota_numerica: ok
+    - tipo_nota: useless
+    - observacion: useless (irrelevant info)
+    - capacidades_inf: useless (irrelevant info)
+    - medidas_inf: useless (irrelevant info)
+    - borrar: useless (all the same)
+    - sobreescribir: useless (all the same)
+
+Cursos:
+    - anyo: ok
+    - fecha_exportacion: useless
+    - ensenanza: useless
+    - codigo: ok
+    - abreviatura ok (todo: keep for now)
+    - nombre_cas: ok
+    - nombre_val: useless
+    - padre: ok
+
+
+Grupos:
+    - anyo: ok
+    - fecha_exportacion: useless
+    - codigo: ok
+    - nombre: ok
+    - ensenanza: useless
+    - linea: ok
+    - turno: ok
+    - modalidad: useless
+    - aula: useless 
+    - capacidad: ok
+    - oficial: useless (all the same)
+
+Horas:
+    - codigo: ok
+    - nombre_cas: ok
+    - ciclo: ok
+    - horas: ok
+
+Modulos:
+    - anyo: ok
+    - fecha_exportacion: useless
+    - ensenanza: useless
+    - curso: ok
+    - codigo: ok
+    - nombre_cas: ok
+    - nombre_val: useless

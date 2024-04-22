@@ -122,6 +122,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\BigDataAplicado\Unit07-BI\Practice01\Resources\Alumnos.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\ModelosInteligenciaArtificial\Unit03-NLP\Challenge03\amazon_alexa.csv">
           <value>
             <Attribute>
@@ -172,6 +179,13 @@
           </value>
         </entry>
         <entry key="\SistemasBigData\Luis\Unit06-DbInAWS\ActivityAthena\Ventas_Athena.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\SistemasBigData\Luis\Unit07-Glule\ActivityAwsPyspark\customers.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

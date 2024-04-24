@@ -1,0 +1,31 @@
+# Tarea: Definir un docker-compose.yml para una aplicación que incluya los servicios de la aplicación web y una base de datos Redis.
+# Especificaciones:
+
+version: '3.1'
+
+services:
+  # Servicio Web:
+  # - Utiliza la imagen construida en la Parte 1.
+  # - Mapea el puerto 3000 al puerto 3000 del host.
+  # - Conecta a la red app-network.
+  web:
+    build: ./../Exercise01
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+  # Servicio Redis:
+  # - Utiliza la imagen redis:alpine.
+  # - No necesita mapeo de puertos.
+  # - Conecta a la misma red app-network.
+  redis:
+    image: redis:alpine
+    networks:
+      - app-network
+
+# Redes:
+# - Define app-network como una red de tipo bridge.
+networks:
+  app-network:
+    driver: bridge
